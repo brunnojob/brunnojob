@@ -6,7 +6,7 @@
 
 ## Sobre Mim
 
-Estudante de **Análise e Desenvolvimento de Sistemas** com paixão por tecnologia e desenvolvimento web. Atualmente focado em construir uma base sólida em desenvolvimento frontend e expandindo conhecimentos em backend, redes e infraestrutura.
+Estudante de **Análise e Desenvolvimento de Sistemas** entusiasta por tecnologia. Atualmente focado em construir uma base sólida em desenvolvimento frontend e expandindo conhecimentos em backend, redes e infraestrutura.
 
 - **Formação**: Análise e Desenvolvimento de Sistemas (em andamento)
 - **Foco Atual**: Desenvolvimento Frontend com React e TypeScript
