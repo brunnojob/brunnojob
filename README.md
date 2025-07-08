@@ -47,24 +47,35 @@ Estudante de **Análise e Desenvolvimento de Sistemas** com paixão por tecnolog
 - **Redes de Computadores** - Protocolos, configuração e segurança
 - **Infraestrutura de TI** - Servidores, virtualização e cloud computing
 
-## Estatísticas do GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
 ## Projetos Recentes
 
-### Dashboard com React e Supabase
-- **Stack**: React, TypeScript, TailwindCSS, Supabase
-- **Features**: Autenticação, dados em tempo real, gráficos com Recharts
-- **Aprendizados**: RLS, PostgreSQL, gerenciamento de estado
+### Sistema de Gestão de Clínica Veterinária
+**[Ver Projeto](https://brunnoprojetoclinica.netlify.app/)**
 
-### Sistema de Gerenciamento
-- **Stack**: React, Vite, Lucide Icons
-- **Features**: Interface responsiva, componentes reutilizáveis
-- **Foco**: Boas práticas de frontend e UX/UI
+Sistema completo para gestão de clínicas veterinárias desenvolvido com React e Supabase.
+
+**Funcionalidades:**
+- Cadastro de pacientes (animais e responsáveis)
+- Registro de atendimentos (consultas, vacinas, cirurgias, exames)
+- Controle de estoque de medicamentos e materiais
+- Gestão financeira por atendimento
+- Relatórios com gráficos
+- Controle de usuários por função (admin, veterinário, auxiliar)
+
+**Stack:** React, TypeScript, TailwindCSS, Supabase, PostgreSQL, Recharts
+
+### Chatbot de Atendimento de Vendas Via WhatsApp + OpenAI
+**[Ver Código](https://github.com/brunnojob/chatbot-atendimento)**
+
+Chatbot inteligente para atendimento automatizado via WhatsApp integrado com OpenAI.
+
+**Funcionalidades:**
+- Integração com WhatsApp Business API
+- Processamento de linguagem natural com OpenAI
+- Respostas automatizadas para vendas
+- Sistema de fallback para atendimento humano
+
+**Stack:** Python, OpenAI API, WhatsApp Business API
 
 ## Objetivos de Aprendizado
 
@@ -86,19 +97,18 @@ Estudante de **Análise e Desenvolvimento de Sistemas** com paixão por tecnolog
 ## Contato
 
 <div align="center">
-  <a href="https://linkedin.com/in/SEU_LINKEDIN" target="_blank">
+  <a href="https://www.linkedin.com/in/brunnojob/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:SEU_EMAIL@email.com">
+  <a href="mailto:brunnosilveirajob@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://brunnosilveira.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
   </a>
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU_USERNAME&color=blueviolet&style=flat-square&label=Visualizações+do+Perfil" alt="Profile Views"/>
-</div>
 
 <div align="center">
   <i>"Cada linha de código é um passo em direção ao conhecimento."</i>
