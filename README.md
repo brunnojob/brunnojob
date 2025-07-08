@@ -77,23 +77,6 @@ Chatbot inteligente para atendimento automatizado via WhatsApp integrado com Ope
 
 **Stack:** Python, OpenAI API, WhatsApp Business API
 
-## Objetivos de Aprendizado
-
-**Curto Prazo**
-- Aprofundar conhecimentos em Java e Spring Boot
-- Compreender melhor protocolos de rede
-- Praticar mais com PostgreSQL e otimização de queries
-
-**Médio Prazo**
-- Desenvolver APIs REST com Java
-- Estudar Docker e containerização
-- Aprender sobre segurança em redes
-
-**Longo Prazo**
-- Tornar-me proficiente em arquitetura de microsserviços
-- Especializar-me em infraestrutura cloud
-- Contribuir para projetos open source
-
 ## Contato
 
 <div align="center">
@@ -106,10 +89,4 @@ Chatbot inteligente para atendimento automatizado via WhatsApp integrado com Ope
   <a href="https://brunnosilveira.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
   </a>
-</div>
-
----
-
-<div align="center">
-  <i>"Cada linha de código é um passo em direção ao conhecimento."</i>
 </div>
