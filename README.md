@@ -11,7 +11,7 @@
 **I'm not the one.**  
 **I'm the chosen one.**
 
-[![Enter the Lab](https://img.shields.io/badge/ENTER_THE_LAB-brunnodev.store-050505?style=for-the-badge&labelColor=007ACC)](https://brunnodev.store/)
+[![Enter the Lab](https://img.shields.io/badge/ENTER_THE_LAB-007ACC?style=for-the-badge)](https://brunnodev.store/)
 
 </div>
 
