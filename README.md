@@ -184,6 +184,6 @@ Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Thir
 | IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
 | SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
 
-Supabase supplies authenticated persistence through the operations API. Netlify build targets host compatible web interfaces and serverless functions; native programs and hardware run in their respective environments. Deployment configuration does not imply an active deployment.
+https://brunnodev.store
 
-Contribution trailer: `Co-authored-by: nyctophile <33561761+ineedfoundmyway@users.noreply.github.com>`.
+
