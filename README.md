@@ -80,6 +80,9 @@ Checkout, catalog, inventory, cash control and role-based operations.
 ![Python](https://img.shields.io/badge/PYTHON-111111?style=for-the-badge&logo=python&logoColor=FFD43B)
 ![C](https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c&logoColor=A8B9CC)
 ![C++](https://img.shields.io/badge/C++-111111?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![CSharp](https://img.shields.io/badge/C%23-111111?style=for-the-badge&logo=dotnet&logoColor=512BD4)
+![Ruby](https://img.shields.io/badge/RUBY-111111?style=for-the-badge&logo=ruby&logoColor=CC342D)
+![Swift](https://img.shields.io/badge/SWIFT-111111?style=for-the-badge&logo=swift&logoColor=F05138)
 ![Java](https://img.shields.io/badge/JAVA-111111?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
 ![Kotlin](https://img.shields.io/badge/KOTLIN-111111?style=for-the-badge&logo=kotlin&logoColor=7F52FF)
 
@@ -166,3 +169,21 @@ Checkout, catalog, inventory, cash control and role-based operations.
 ## License
 
 Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Third-party dependencies and media retain their respective terms. Maintained by [Brunno Dev](https://brunnodev.store).
+
+## Native implementations
+
+| Language / target | Working source |
+|---|---|
+| C17 | [Durable archive client](https://github.com/brunnojob/vercel-home-telemetry-api/tree/main/clients/c) |
+| C++ | [Concurrent task queue](https://github.com/brunnojob/cpp-safe-task-queue) |
+| C# | [Supabase inventory API](https://github.com/brunnojob/csharp-pantry-api) |
+| Java | [Balanced ledger](https://github.com/brunnojob/bank-crypto-ledger) |
+| Kotlin | [Android inspections](https://github.com/brunnojob/android-offshore-field-console) |
+| Swift | [Native inspection store](https://github.com/brunnojob/android-offshore-field-console/tree/main/ios) |
+| Ruby | [Git collaboration auditor](https://github.com/brunnojob/pair-extraordinaire-badge) |
+| IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
+| SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
+
+Supabase supplies authenticated persistence through the operations API. Netlify build targets host compatible web interfaces and serverless functions; native programs and hardware run in their respective environments. Deployment configuration does not imply an active deployment.
+
+Contribution trailer: `Co-authored-by: nyctophile <33561761+ineedfoundmyway@users.noreply.github.com>`.
