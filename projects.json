@@ -1,0 +1,147 @@
+[
+  {
+    "repository": "android-offshore-field-console",
+    "title": "Offshore Field Console",
+    "description": "Aplicativo Android para inspeções com checklist obrigatório, referência de evidência, banco Room e sincronização autenticada de eventos."
+  },
+  {
+    "repository": "arduino-air-quality-monitor",
+    "title": "Air Quality Monitor",
+    "description": "Monitor ADC com janela móvel, variância, aquecimento, confirmação de limiar, histerese e identificação de falha de sensor."
+  },
+  {
+    "repository": "arduino-cloud-telemetry",
+    "title": "ESP32 Telemetry",
+    "description": "Aquisição calibrada, qualidade de sinal, sequência por sensor, buffer limitado e confirmação de entrega serial."
+  },
+  {
+    "repository": "arduino-smart-irrigation",
+    "title": "Smart Irrigation",
+    "description": "Controle de irrigação com filtro, histerese, intervalo mínimo, tempo máximo de bomba, sensor de reservatório e bloqueio por falha."
+  },
+  {
+    "repository": "bank-crypto-ledger",
+    "title": "Bank Ledger",
+    "description": "Motor contábil e diário persistente de partidas balanceadas por moeda, com idempotência, bloqueio de arquivo, precisão inteira e verificação de encadeamento."
+  },
+  {
+    "repository": "bet-admin-dashboard",
+    "title": "NOVA Administration",
+    "description": "Painel administrativo com sessões, CRUD de sites e domínios, registros financeiros, integração Mercado Pago e relatórios por dia e estado."
+  },
+  {
+    "repository": "c-file-integrity-audit",
+    "title": "File Integrity Audit",
+    "description": "Inventário recursivo de arquivos com SHA-256, comparação de tamanho e identificação de inclusões, alterações e remoções."
+  },
+  {
+    "repository": "c-household-budget",
+    "title": "Household Budget",
+    "description": "Consolidação de receitas e despesas por mês e categoria, com valores inteiros em centavos e validação estrita de datas e registros."
+  },
+  {
+    "repository": "casino-simulator-brunnodev",
+    "title": "NOVA Play",
+    "description": "Aplicativo de entretenimento com regras distintas para roletas, dados e slots, amostragem aleatória sem viés modular e histórico exportável."
+  },
+  {
+    "repository": "cpp-safe-task-queue",
+    "title": "Safe Task Queue",
+    "description": "Executor concorrente com capacidade limitada, prioridades, prazo de execução, futures e encerramento com drenagem ou cancelamento."
+  },
+  {
+    "repository": "cpp-water-leak-alarm",
+    "title": "Water Leak Monitor",
+    "description": "Análise de leituras com filtro, histerese, confirmação temporal, falha de sensor e alarme retido até reconhecimento."
+  },
+  {
+    "repository": "csharp-pantry-api",
+    "title": "Pantry API",
+    "description": "API de estoque doméstico com validade, localização, movimentos auditados, idempotência e controle otimista de revisão."
+  },
+  {
+    "repository": "eletrical-comands-and-teory",
+    "title": "Electrical Circuit Engine",
+    "description": "Interpretador de circuitos com contatos NO/NC, lógica AND/OR, temporização TON, retenção por estado anterior e exclusão de bobinas simultâneas."
+  },
+  {
+    "repository": "faceclock-yolo",
+    "title": "FaceClock Review API",
+    "description": "Detecção de rosto, embeddings, propostas de identificação e revisão humana antes do registro de presença, com templates cifrados e trilha autenticada."
+  },
+  {
+    "repository": "fuckup",
+    "title": "Repository Insights",
+    "description": "Análise de repositórios públicos do GitHub com linguagens, contribuidores, commits, duração de issues e critérios observáveis de estrutura."
+  },
+  {
+    "repository": "industrial-iot-sentinel",
+    "title": "Industrial IoT Sentinel",
+    "description": "Gêmeo operacional de ocupação de embarcação, capacidade por zona, função de pessoas e movimentos idempotentes, recuperados de um diário SQLite."
+  },
+  {
+    "repository": "java-fuel-efficiency",
+    "title": "Fuel Log",
+    "description": "Registro persistente de abastecimentos, custos decimais e consumo entre tanques completos, incluindo abastecimentos parciais."
+  },
+  {
+    "repository": "java-medication-schedule",
+    "title": "Medication Schedule",
+    "description": "Agenda de horários informados pelo usuário, com fuso horário, tratamento de mudanças de horário e histórico de registros."
+  },
+  {
+    "repository": "java-neighborhood-repair-log",
+    "title": "Repair Log",
+    "description": "Gestão de solicitações com prioridades, responsáveis, transições de estado, revisão esperada e histórico de eventos persistente."
+  },
+  {
+    "repository": "nodered-industrial-automation",
+    "title": "Industrial Automation",
+    "description": "Fluxo MQTT e Node-RED com unidades de engenharia, controle de sequência, qualidade, histerese de alarme e fila persistente de envio."
+  },
+  {
+    "repository": "offshore-scada-simulator",
+    "title": "Offshore SCADA",
+    "description": "Servidor local com WebSocket, Modbus TCP, normalização de sinais, alarmes com confirmação e histórico agregado por intervalo."
+  },
+  {
+    "repository": "painel-admin-aposta",
+    "title": "NOVA Operations",
+    "description": "Painel autenticado de ordens de serviço, prioridade, transição de estado, telemetria recente, filtros e exportação."
+  },
+  {
+    "repository": "pair-extraordinaire-badge",
+    "title": "Git Collaboration Audit",
+    "description": "Auditoria de histórico Git, autores, trailers de coautoria, mudanças de arquivos e colaboração associada a alterações substantivas."
+  },
+  {
+    "repository": "pid-pressure-control",
+    "title": "Pressure Control",
+    "description": "Controlador PID com intertravamentos e identificação de modelo de primeira ordem a partir de medições do processo."
+  },
+  {
+    "repository": "plc-modbus-safety-controller",
+    "title": "PLC Modbus Controller",
+    "description": "Máquina de estados de motor com intertravamentos, referência Structured Text e processamento de quadros Modbus TCP."
+  },
+  {
+    "repository": "scada-code-studio",
+    "title": "SCADA Code Studio",
+    "description": "Interface interativa de comandos elétricos, diagramas ladder e estados de motor, com controles acessíveis e exportação do histórico de ações."
+  },
+  {
+    "repository": "secure-payment-pos-core",
+    "title": "POS Core",
+    "description": "Aplicativo Android para catálogo, estoque, registro de vendas recebidas em dinheiro, eventos assinados no Keystore e fila de sincronização."
+  },
+  {
+    "repository": "trazorbypasssafe7",
+    "title": "Trazor Ledger",
+    "description": "Contas contábeis pessoais, entradas e despesas, histórico persistente, exportação e lançamentos transacionais com revisão esperada."
+  },
+  {
+    "repository": "zero-trust-auth-gateway",
+    "title": "Auth Gateway",
+    "description": "Gateway com tokens de curta duração, escopos, proteção contra repetição, limites e auditoria; autenticação Supabase para consulta de relatórios privados."
+  }
+]
