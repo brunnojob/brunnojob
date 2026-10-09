@@ -164,4 +164,4 @@ Checkout, catalog, inventory, cash control and role-based operations.
 
 ## Projetos
 
-[Ver todos os projetos](https://github.com/brunnojob?tab=repositories&type=public)
+[Ver todos os projetos](https://github.com/brunnojob/brunnojob/blob/main/PROJECTS.md)
