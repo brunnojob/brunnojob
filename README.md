@@ -8,16 +8,13 @@
 
 ### SYSTEMS BUILDER / BRAZIL → GLOBAL
 
-**I'm not the one.**  
-**I'm the chosen one.**
-
 [![Enter the Lab](https://img.shields.io/badge/ENTER_THE_LAB-007ACC?style=for-the-badge)](https://brunnodev.store/)
 
 </div>
 
 Architecture, journeys and technical decisions focused on operational results.
 
-Cambridge C2 English to document, collaborate and work without language barriers. SCADA, PLC, IoT, automation and signal reading for real processes.
+SCADA, PLC, IoT, automation and signal reading for real processes.
 
 I connect engineering thinking, digital product and operational context to turn messy requirements into usable systems.
 
@@ -165,3 +162,7 @@ Checkout, catalog, inventory, cash control and role-based operations.
 ## Projects
 
 [View all projects](https://github.com/brunnojob/brunnojob/blob/main/PROJECTS.md)
+
+## License
+
+Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Third-party dependencies and media retain their respective terms. Maintained by [Brunno Dev](https://brunnodev.store).
