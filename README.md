@@ -72,22 +72,6 @@ Checkout, catalog, inventory, cash control and role-based operations.
 
 </details>
 
-## Engineering activity
-
-A rolling view of my last 60 days of public GitHub activity. The charts are generated from GitHub API data by the [profile analytics renderer](scripts/profile_analytics.py) in this repository, rather than embedded third-party statistics cards.
-
-<div align="center">
-
-<img src="assets/analytics/activity.svg" width="100%" alt="60-day contributions, commit activity and most used repository languages" />
-
-<img src="assets/analytics/commits.svg" width="100%" alt="Public authored commits by hour, Brasília time (UTC-03)" />
-
-</div>
-
-The contribution totals include GitHub-recorded activity over the rolling period. Language share is calculated from source bytes in my owned public, non-fork repositories, not from self-declared skills. Commit timing is derived from searchable public commits and may be limited by the GitHub Search API result cap.
-
-[Activity source](scripts/profile_analytics.py) · [Daily refresh workflow](.github/workflows/profile-analytics.yml) · [Contribution history](https://github.com/brunnojob?tab=overview)
-
 ## Core capabilities
 
 <div align="center">
