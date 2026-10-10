@@ -198,10 +198,4 @@ Run `python .proof/record.py` after installing the prerequisites above. The scen
 
 [Verified execution index](docs/proof/INDEX.md)
 
-## Co-authorship
 
-Contribution trailer:
-
-```text
-Co-authored-by: nyctophile <33561761+ineedfoundmyway@users.noreply.github.com>
-```
