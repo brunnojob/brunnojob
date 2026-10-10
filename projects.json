@@ -1,5 +1,20 @@
 [
   {
+    "repository": "Badges4-README.md-Profile",
+    "title": "Badges4-README.md-Profile",
+    "description": "Local SVG badge rendering and Markdown URL auditing. Text and attributes are escaped; colors and dimensions are validated."
+  },
+  {
+    "repository": "FullDots",
+    "title": "FullDots",
+    "description": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/brand/fulldots-logo-light.svg\" />"
+  },
+  {
+    "repository": "agent-work-layer",
+    "title": "agent-work-layer",
+    "description": "**Work Orders and Work Reports for AI agents.** A typed SDK, validator, lifecycle engine and MCP server for handing work from one agent to another, with checkable results."
+  },
+  {
     "repository": "android-offshore-field-console",
     "title": "Offshore Field Console",
     "description": "Aplicativo Android para inspeções com checklist obrigatório, referência de evidência, banco Room e sincronização autenticada de eventos."
@@ -40,6 +55,36 @@
     "description": "Consolidação de receitas e despesas por mês e categoria, com valores inteiros em centavos e validação estrita de datas e registros."
   },
   {
+    "repository": "c-offshore-can-j1939-inspector",
+    "title": "c-offshore-can-j1939-inspector",
+    "description": "Decode 29-bit CAN identifiers and identify sequence gaps in recorded offshore equipment traffic."
+  },
+  {
+    "repository": "c-offshore-event-journal-validator",
+    "title": "c-offshore-event-journal-validator",
+    "description": "Audit sequence continuity, timestamps and CRC32 records from embedded event journals."
+  },
+  {
+    "repository": "c-offshore-modbus-frame-audit",
+    "title": "c-offshore-modbus-frame-audit",
+    "description": "Validate captured Modbus RTU frames, CRC integrity, exception responses and register decoding."
+  },
+  {
+    "repository": "c-offshore-pump-sequence-replay",
+    "title": "c-offshore-pump-sequence-replay",
+    "description": "Replay duty/standby pump logic with start verification, trip latching and minimum run time."
+  },
+  {
+    "repository": "c-offshore-redundant-sensor-voter",
+    "title": "c-offshore-redundant-sensor-voter",
+    "description": "Detect disagreement and stale measurements across three pressure channels using median voting and hysteresis."
+  },
+  {
+    "repository": "c-offshore-vibration-spectrum",
+    "title": "c-offshore-vibration-spectrum",
+    "description": "Extract RMS, crest factor and dominant vibration frequency from uniformly sampled accelerometer captures."
+  },
+  {
     "repository": "casino-simulator-brunnodev",
     "title": "NOVA Play",
     "description": "Aplicativo de entretenimento com regras distintas para roletas, dados e slots, amostragem aleatória sem viés modular e histórico exportável."
@@ -55,6 +100,36 @@
     "description": "Análise de leituras com filtro, histerese, confirmação temporal, falha de sensor e alarme retido até reconhecimento."
   },
   {
+    "repository": "csharp-offshore-calibration-regression",
+    "title": "csharp-offshore-calibration-regression",
+    "description": "Fit transmitter calibration curves with weighted least squares and report residuals and slope uncertainty."
+  },
+  {
+    "repository": "csharp-offshore-load-shed-optimizer",
+    "title": "csharp-offshore-load-shed-optimizer",
+    "description": "Select nonessential loads to shed with an exact capacity-constrained search while preserving protected consumers."
+  },
+  {
+    "repository": "csharp-offshore-permit-conflict-audit",
+    "title": "csharp-offshore-permit-conflict-audit",
+    "description": "Detect overlapping work permits with conflicting isolation boundaries and incomplete authorization evidence."
+  },
+  {
+    "repository": "csharp-offshore-proof-test-planner",
+    "title": "csharp-offshore-proof-test-planner",
+    "description": "Prioritize overdue protective-device proof tests from failure-rate and test-coverage assumptions."
+  },
+  {
+    "repository": "csharp-offshore-trip-log-triage",
+    "title": "csharp-offshore-trip-log-triage",
+    "description": "Reconstruct first-out trips and calculate restoration times from equipment event logs."
+  },
+  {
+    "repository": "csharp-offshore-valve-stiction-diagnostic",
+    "title": "csharp-offshore-valve-stiction-diagnostic",
+    "description": "Identify command reversals, valve deadband and persistent position mismatch from trend captures."
+  },
+  {
     "repository": "csharp-pantry-api",
     "title": "Pantry API",
     "description": "API de estoque doméstico com validade, localização, movimentos auditados, idempotência e controle otimista de revisão."
@@ -68,6 +143,11 @@
     "repository": "faceclock-yolo",
     "title": "FaceClock Review API",
     "description": "Detecção de rosto, embeddings, propostas de identificação e revisão humana antes do registro de presença, com templates cifrados e trilha autenticada."
+  },
+  {
+    "repository": "flowpilot",
+    "title": "flowpilot",
+    "description": "**A lightweight, self-hosted, code-first workflow automation engine — with first-class Telegram support.**"
   },
   {
     "repository": "fuckup",
@@ -93,6 +173,36 @@
     "repository": "java-neighborhood-repair-log",
     "title": "Repair Log",
     "description": "Gestão de solicitações com prioridades, responsáveis, transições de estado, revisão esperada e histórico de eventos persistente."
+  },
+  {
+    "repository": "java-offshore-alarm-cascade-correlator",
+    "title": "java-offshore-alarm-cascade-correlator",
+    "description": "Group alarm cascades by equipment dependencies and time windows to expose likely initiating events."
+  },
+  {
+    "repository": "java-offshore-fault-evidence-ranker",
+    "title": "java-offshore-fault-evidence-ranker",
+    "description": "Rank competing equipment faults with Bayesian evidence and log-space normalization."
+  },
+  {
+    "repository": "java-offshore-historian-quality-audit",
+    "title": "java-offshore-historian-quality-audit",
+    "description": "Audit historian streams for quality flags, time gaps and robust rolling outliers."
+  },
+  {
+    "repository": "java-offshore-maintenance-critical-path",
+    "title": "java-offshore-maintenance-critical-path",
+    "description": "Calculate dependency-safe maintenance order, earliest completion and task float for shutdown planning."
+  },
+  {
+    "repository": "java-offshore-network-path-diagnostics",
+    "title": "java-offshore-network-path-diagnostics",
+    "description": "Find healthy communication paths around failed links using latency-weighted Dijkstra routing."
+  },
+  {
+    "repository": "java-offshore-spares-reservation-ledger",
+    "title": "java-offshore-spares-reservation-ledger",
+    "description": "Replay idempotent stock reservations, releases and issues while preventing negative spare inventory."
   },
   {
     "repository": "nodered-industrial-automation",
@@ -135,9 +245,49 @@
     "description": "Aplicativo Android para catálogo, estoque, registro de vendas recebidas em dinheiro, eventos assinados no Keystore e fila de sincronização."
   },
   {
-    "repository": "trazorbypasssafe7",
-    "title": "Trazor Ledger",
-    "description": "Contas contábeis pessoais, entradas e despesas, histórico persistente, exportação e lançamentos transacionais com revisão esperada."
+    "repository": "swift-offshore-commissioning-evidence",
+    "title": "swift-offshore-commissioning-evidence",
+    "description": "Evaluate commissioning dependencies and evidence freshness while detecting cycles and blocked acceptance checks."
+  },
+  {
+    "repository": "swift-offshore-compressor-efficiency",
+    "title": "swift-offshore-compressor-efficiency",
+    "description": "Calculate ideal-gas compressor efficiency and flag thermodynamically inconsistent trend records."
+  },
+  {
+    "repository": "swift-offshore-corrosion-trend",
+    "title": "swift-offshore-corrosion-trend",
+    "description": "Estimate wall-thickness loss and conservative inspection intervals from ultrasonic survey histories."
+  },
+  {
+    "repository": "swift-offshore-downtime-ledger",
+    "title": "swift-offshore-downtime-ledger",
+    "description": "Merge overlapping outage windows and calculate asset availability without double-counting faults."
+  },
+  {
+    "repository": "swift-offshore-telemetry-health",
+    "title": "swift-offshore-telemetry-health",
+    "description": "Track per-channel freshness, packet loss and jitter from timestamped telemetry receipts."
+  },
+  {
+    "repository": "swift-offshore-ups-runtime-estimator",
+    "title": "swift-offshore-ups-runtime-estimator",
+    "description": "Integrate UPS discharge histories with Peukert capacity correction and estimate remaining autonomy."
+  },
+  {
+    "repository": "trazormodel",
+    "title": "trazormodel",
+    "description": "Personal ledger accounts, income and expenses, persistent history, export, and transactional entries with expected revisions."
+  },
+  {
+    "repository": "vercel-home-telemetry-api",
+    "title": "vercel-home-telemetry-api",
+    "description": "An API and interface for storing execution results, telemetry, inspections, and work orders. It uses PostgreSQL on Supabase, per-user authentication, and compatible serverless hosting Functions."
+  },
+  {
+    "repository": "yasbd-lib",
+    "title": "yasbd-lib",
+    "description": "  <img src=\"https://raw.githubusercontent.com/speedyk-005/yasbd-lib/main/yasbd_logo.png\" alt=\"Yasbd-lib Logo\" width=\"500\"/>"
   },
   {
     "repository": "zero-trust-auth-gateway",
