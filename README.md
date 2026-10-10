@@ -184,10 +184,6 @@ Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Thir
 | IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
 | SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
 
-
----
-
-
 https://brunnodev.store
 
 
