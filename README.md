@@ -187,36 +187,6 @@ Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Thir
 
 ---
 
-## 📊 Live GitHub Analytics & Metrics
-
-<div align="center">
-
-| 📈 Estatísticas Gerais | 💻 Linguagens Mais Usadas |
-| :---: | :---: |
-| [![Brunno's GitHub Stats](https://github-readme-stats.vercel.app/api?username=brunnojob&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/brunnojob) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=brunnojob&layout=compact&theme=tokyonight&hide_border=true&langs_count=7)](https://github.com/brunnojob) |
-
-</div>
-
-<div align="center">
-
-[![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=brunnojob&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
-### 🌐 Conecta-ti & Colabora
-> *Focado em transformar código, hardware e sistemas em soluções reais.*
-
-<p align="center">
-  <a href="https://linkedin.com/in/brunnosilveira" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:admin@rfwallmarket.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/brunnojob" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
 
 https://brunnodev.store
 
