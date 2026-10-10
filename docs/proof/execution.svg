@@ -3,49 +3,49 @@
 <title>Recorded program execution</title>
 <g font-family="monospace" font-size="16">
 <text x="24" y="36" fill="#c9d1d9">brunnojob/brunnojob</text>
-<text x="24" y="58" fill="#c9d1d9">Executed: 2026-10-10T02:35:09.438892+00:00</text>
-<text x="24" y="80" fill="#c9d1d9">Source: 282e03b5efc0</text>
+<text x="24" y="58" fill="#c9d1d9">Executed: 2026-10-10T02:49:06.729654+00:00</text>
+<text x="24" y="80" fill="#c9d1d9">Source: 3e198f1c1e58</text>
 <text x="24" y="102" fill="#c9d1d9"></text>
 <text x="24" y="124" fill="#3fb950">PASS python -m json.tool projects.json &gt; /dev/null</text>
 <text x="24" y="146" fill="#79c0ff">$ bash -e -o pipefail -c python -m json.tool projects.json &gt; /dev/null</text>
 <text x="24" y="168" fill="#c9d1d9"></text>
 <text x="24" y="190" fill="#3fb950">PASS Load and render the actual project catalog</text>
 <text x="24" y="212" fill="#79c0ff">$ python .proof/demo.py</text>
-<text x="24" y="234" fill="#c9d1d9">{&quot;catalog&quot;: [{&quot;description&quot;: &quot;Aplicativo Android para inspe\u00e7\u00f5es com checklist obrigat\u00f3rio, </text>
-<text x="24" y="256" fill="#c9d1d9">refer\u00eancia de evid\u00eancia, banco Room e sincroniza\u00e7\u00e3o autenticada de eventos.&quot;, </text>
-<text x="24" y="278" fill="#c9d1d9">&quot;repository&quot;: &quot;android-offshore-field-console&quot;, &quot;title&quot;: &quot;Offshore Field Console&quot;}, {&quot;description&quot;: </text>
-<text x="24" y="300" fill="#c9d1d9">&quot;Monitor ADC com janela m\u00f3vel, vari\u00e2ncia, aquecimento, confirma\u00e7\u00e3o de limiar, </text>
-<text x="24" y="322" fill="#c9d1d9">histerese e identifica\u00e7\u00e3o de falha de sensor.&quot;, &quot;repository&quot;: &quot;arduino-air-quality-monitor&quot;, </text>
-<text x="24" y="344" fill="#c9d1d9">&quot;title&quot;: &quot;Air Quality Monitor&quot;}, {&quot;description&quot;: &quot;Aquisi\u00e7\u00e3o calibrada, qualidade de sinal, </text>
-<text x="24" y="366" fill="#c9d1d9">sequ\u00eancia por sensor, buffer limitado e confirma\u00e7\u00e3o de entrega serial.&quot;, &quot;repository&quot;: </text>
-<text x="24" y="388" fill="#c9d1d9">&quot;arduino-cloud-telemetry&quot;, &quot;title&quot;: &quot;ESP32 Telemetry&quot;}, {&quot;description&quot;: &quot;Controle de irriga\u00e7\u00e3o </text>
-<text x="24" y="410" fill="#c9d1d9">com filtro, histerese, intervalo m\u00ednimo, tempo m\u00e1ximo de bomba, sensor de reservat\u00f3rio e </text>
-<text x="24" y="432" fill="#c9d1d9">bloqueio por falha.&quot;, &quot;repository&quot;: &quot;arduino-smart-irrigation&quot;, &quot;title&quot;: &quot;Smart Irrigation&quot;}, </text>
-<text x="24" y="454" fill="#c9d1d9">{&quot;description&quot;: &quot;Motor cont\u00e1bil e di\u00e1rio persistente de partidas balanceadas por moeda, com </text>
-<text x="24" y="476" fill="#c9d1d9">idempot\u00eancia, bloqueio de arquivo, precis\u00e3o inteira e verifica\u00e7\u00e3o de encadeamento.&quot;, </text>
-<text x="24" y="498" fill="#c9d1d9">&quot;repository&quot;: &quot;bank-crypto-ledger&quot;, &quot;title&quot;: &quot;Bank Ledger&quot;}, {&quot;description&quot;: &quot;Painel administrativo com </text>
-<text x="24" y="520" fill="#c9d1d9">sess\u00f5es, CRUD de sites e dom\u00ednios, registros financeiros, integra\u00e7\u00e3o Mercado Pago e </text>
-<text x="24" y="542" fill="#c9d1d9">relat\u00f3rios por dia e estado.&quot;, &quot;repository&quot;: &quot;bet-admin-dashboard&quot;, &quot;title&quot;: &quot;NOVA Administration&quot;}, </text>
-<text x="24" y="564" fill="#c9d1d9">{&quot;description&quot;: &quot;Invent\u00e1rio recursivo de arquivos com SHA-256, compara\u00e7\u00e3o de tamanho e </text>
-<text x="24" y="586" fill="#c9d1d9">identifica\u00e7\u00e3o de inclus\u00f5es, altera\u00e7\u00f5es e remo\u00e7\u00f5es.&quot;, &quot;repository&quot;: </text>
-<text x="24" y="608" fill="#c9d1d9">&quot;c-file-integrity-audit&quot;, &quot;title&quot;: &quot;File Integrity Audit&quot;}, {&quot;description&quot;: &quot;Consolida\u00e7\u00e3o de </text>
-<text x="24" y="630" fill="#c9d1d9">receitas e despesas por m\u00eas e categoria, com valores inteiros em centavos e valida\u00e7\u00e3o </text>
-<text x="24" y="652" fill="#c9d1d9">estrita de datas e registros.&quot;, &quot;repository&quot;: &quot;c-household-budget&quot;, &quot;title&quot;: &quot;Household Budget&quot;}, </text>
-<text x="24" y="674" fill="#c9d1d9">{&quot;description&quot;: &quot;Aplicativo de entretenimento com regras distintas para roletas, dados e slots, amostragem</text>
-<text x="24" y="696" fill="#c9d1d9"> aleat\u00f3ria sem vi\u00e9s modular e hist\u00f3rico export\u00e1vel.&quot;, &quot;repository&quot;: &quot;casino-simulator-</text>
-<text x="24" y="718" fill="#c9d1d9">brunnodev&quot;, &quot;title&quot;: &quot;NOVA Play&quot;}, {&quot;description&quot;: &quot;Executor concorrente com capacidade limitada, </text>
-<text x="24" y="740" fill="#c9d1d9">prioridades, prazo de execu\u00e7\u00e3o, futures e encerramento com drenagem ou cancelamento.&quot;, </text>
-<text x="24" y="762" fill="#c9d1d9">&quot;repository&quot;: &quot;cpp-safe-task-queue&quot;, &quot;title&quot;: &quot;Safe Task Queue&quot;}, {&quot;description&quot;: &quot;An\u00e1lise de </text>
-<text x="24" y="784" fill="#c9d1d9">leituras com filtro, histerese, confirma\u00e7\u00e3o temporal, falha de sensor e alarme retido at\u00e9 </text>
-<text x="24" y="806" fill="#c9d1d9">reconhecimento.&quot;, &quot;repository&quot;: &quot;cpp-water-leak-alarm&quot;, &quot;title&quot;: &quot;Water Leak Monitor&quot;}, {&quot;description&quot;: </text>
-<text x="24" y="828" fill="#c9d1d9">&quot;API de estoque dom\u00e9stico com validade, localiza\u00e7\u00e3o, movimentos auditados, </text>
-<text x="24" y="850" fill="#c9d1d9">idempot\u00eancia e controle otimista de revis\u00e3o.&quot;, &quot;repository&quot;: &quot;csharp-pantry-api&quot;, &quot;title&quot;: </text>
-<text x="24" y="872" fill="#c9d1d9">&quot;Pantry API&quot;}, {&quot;description&quot;: &quot;Interpretador de circuitos com contatos NO/NC, l\u00f3gica AND/OR, </text>
-<text x="24" y="894" fill="#c9d1d9">temporiza\u00e7\u00e3o TON, reten\u00e7\u00e3o por estado anterior e exclus\u00e3o de bobinas </text>
-<text x="24" y="916" fill="#c9d1d9">simult\u00e2neas.&quot;, &quot;repository&quot;: &quot;eletrical-comands-and-teory&quot;, &quot;title&quot;: &quot;Electrical Circuit Engine&quot;}, </text>
-<text x="24" y="938" fill="#c9d1d9">{&quot;description&quot;: &quot;Detec\u00e7\u00e3o de rosto, embeddings, propostas de identifica\u00e7\u00e3o e </text>
-<text x="24" y="960" fill="#c9d1d9">revis\u00e3o humana antes do registro de presen\u00e7a, com templates cifrados e trilha autenticada.&quot;, </text>
-<text x="24" y="982" fill="#c9d1d9">&quot;repository&quot;: &quot;faceclock-yolo&quot;, &quot;title&quot;: &quot;FaceClock Review</text>
+<text x="24" y="234" fill="#c9d1d9">{&quot;catalog&quot;: [{&quot;description&quot;: &quot;Local SVG badge rendering and Markdown URL auditing. Text and attributes are</text>
+<text x="24" y="256" fill="#c9d1d9"> escaped; colors and dimensions are validated.&quot;, &quot;repository&quot;: &quot;Badges4-README.md-Profile&quot;, &quot;title&quot;: </text>
+<text x="24" y="278" fill="#c9d1d9">&quot;Badges4-README.md-Profile&quot;}, {&quot;description&quot;: &quot;  &lt;source media=\&quot;(prefers-color-scheme: dark)\&quot; </text>
+<text x="24" y="300" fill="#c9d1d9">srcset=\&quot;docs/brand/fulldots-logo-light.svg\&quot; /&gt;&quot;, &quot;repository&quot;: &quot;FullDots&quot;, &quot;title&quot;: &quot;FullDots&quot;}, </text>
+<text x="24" y="322" fill="#c9d1d9">{&quot;description&quot;: &quot;**Work Orders and Work Reports for AI agents.** A typed SDK, validator, lifecycle engine </text>
+<text x="24" y="344" fill="#c9d1d9">and MCP server for handing work from one agent to another, with checkable results.&quot;, &quot;repository&quot;: &quot;agent-</text>
+<text x="24" y="366" fill="#c9d1d9">work-layer&quot;, &quot;title&quot;: &quot;agent-work-layer&quot;}, {&quot;description&quot;: &quot;Aplicativo Android para inspe\u00e7\u00f5es </text>
+<text x="24" y="388" fill="#c9d1d9">com checklist obrigat\u00f3rio, refer\u00eancia de evid\u00eancia, banco Room e sincroniza\u00e7\u00e3o </text>
+<text x="24" y="410" fill="#c9d1d9">autenticada de eventos.&quot;, &quot;repository&quot;: &quot;android-offshore-field-console&quot;, &quot;title&quot;: &quot;Offshore Field </text>
+<text x="24" y="432" fill="#c9d1d9">Console&quot;}, {&quot;description&quot;: &quot;Monitor ADC com janela m\u00f3vel, vari\u00e2ncia, aquecimento, </text>
+<text x="24" y="454" fill="#c9d1d9">confirma\u00e7\u00e3o de limiar, histerese e identifica\u00e7\u00e3o de falha de sensor.&quot;, &quot;repository&quot;: </text>
+<text x="24" y="476" fill="#c9d1d9">&quot;arduino-air-quality-monitor&quot;, &quot;title&quot;: &quot;Air Quality Monitor&quot;}, {&quot;description&quot;: &quot;Aquisi\u00e7\u00e3o </text>
+<text x="24" y="498" fill="#c9d1d9">calibrada, qualidade de sinal, sequ\u00eancia por sensor, buffer limitado e confirma\u00e7\u00e3o de </text>
+<text x="24" y="520" fill="#c9d1d9">entrega serial.&quot;, &quot;repository&quot;: &quot;arduino-cloud-telemetry&quot;, &quot;title&quot;: &quot;ESP32 Telemetry&quot;}, {&quot;description&quot;: </text>
+<text x="24" y="542" fill="#c9d1d9">&quot;Controle de irriga\u00e7\u00e3o com filtro, histerese, intervalo m\u00ednimo, tempo m\u00e1ximo de bomba,</text>
+<text x="24" y="564" fill="#c9d1d9"> sensor de reservat\u00f3rio e bloqueio por falha.&quot;, &quot;repository&quot;: &quot;arduino-smart-irrigation&quot;, &quot;title&quot;: </text>
+<text x="24" y="586" fill="#c9d1d9">&quot;Smart Irrigation&quot;}, {&quot;description&quot;: &quot;Motor cont\u00e1bil e di\u00e1rio persistente de partidas </text>
+<text x="24" y="608" fill="#c9d1d9">balanceadas por moeda, com idempot\u00eancia, bloqueio de arquivo, precis\u00e3o inteira e </text>
+<text x="24" y="630" fill="#c9d1d9">verifica\u00e7\u00e3o de encadeamento.&quot;, &quot;repository&quot;: &quot;bank-crypto-ledger&quot;, &quot;title&quot;: &quot;Bank Ledger&quot;}, </text>
+<text x="24" y="652" fill="#c9d1d9">{&quot;description&quot;: &quot;Painel administrativo com sess\u00f5es, CRUD de sites e dom\u00ednios, registros </text>
+<text x="24" y="674" fill="#c9d1d9">financeiros, integra\u00e7\u00e3o Mercado Pago e relat\u00f3rios por dia e estado.&quot;, &quot;repository&quot;: &quot;bet-</text>
+<text x="24" y="696" fill="#c9d1d9">admin-dashboard&quot;, &quot;title&quot;: &quot;NOVA Administration&quot;}, {&quot;description&quot;: &quot;Invent\u00e1rio recursivo de arquivos </text>
+<text x="24" y="718" fill="#c9d1d9">com SHA-256, compara\u00e7\u00e3o de tamanho e identifica\u00e7\u00e3o de inclus\u00f5es, </text>
+<text x="24" y="740" fill="#c9d1d9">altera\u00e7\u00f5es e remo\u00e7\u00f5es.&quot;, &quot;repository&quot;: &quot;c-file-integrity-audit&quot;, &quot;title&quot;: &quot;File </text>
+<text x="24" y="762" fill="#c9d1d9">Integrity Audit&quot;}, {&quot;description&quot;: &quot;Consolida\u00e7\u00e3o de receitas e despesas por m\u00eas e </text>
+<text x="24" y="784" fill="#c9d1d9">categoria, com valores inteiros em centavos e valida\u00e7\u00e3o estrita de datas e registros.&quot;, </text>
+<text x="24" y="806" fill="#c9d1d9">&quot;repository&quot;: &quot;c-household-budget&quot;, &quot;title&quot;: &quot;Household Budget&quot;}, {&quot;description&quot;: &quot;Decode 29-bit CAN </text>
+<text x="24" y="828" fill="#c9d1d9">identifiers and identify sequence gaps in recorded offshore equipment traffic.&quot;, &quot;repository&quot;: </text>
+<text x="24" y="850" fill="#c9d1d9">&quot;c-offshore-can-j1939-inspector&quot;, &quot;title&quot;: &quot;c-offshore-can-j1939-inspector&quot;}, {&quot;description&quot;: &quot;Audit </text>
+<text x="24" y="872" fill="#c9d1d9">sequence continuity, timestamps and CRC32 records from embedded event journals.&quot;, &quot;repository&quot;: </text>
+<text x="24" y="894" fill="#c9d1d9">&quot;c-offshore-event-journal-validator&quot;, &quot;title&quot;: &quot;c-offshore-event-journal-validator&quot;}, {&quot;description&quot;: </text>
+<text x="24" y="916" fill="#c9d1d9">&quot;Validate captured Modbus RTU frames, CRC integrity, exception responses and register decoding.&quot;, </text>
+<text x="24" y="938" fill="#c9d1d9">&quot;repository&quot;: &quot;c-offshore-modbus-frame-audit&quot;, &quot;title&quot;: &quot;c-offshore-modbus-frame-audit&quot;}, {&quot;description&quot;: </text>
+<text x="24" y="960" fill="#c9d1d9">&quot;Replay duty/standby pump logic with start verification, trip latching and minimum run time.&quot;, </text>
+<text x="24" y="982" fill="#c9d1d9">&quot;repository&quot;: &quot;c-offshore-pump-sequence-replay&quot;, &quot;title&quot;: &quot;c-offshore-pump-sequence-replay</text>
 <text x="24" y="1004" fill="#c9d1d9">Full transcript in the execution-proof artifact.</text>
 </g>
 </svg>
