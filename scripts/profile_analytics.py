@@ -102,4 +102,17 @@ parts.append("</svg>")
 out=Path("assets/analytics/activity.svg")
 out.parent.mkdir(parents=True,exist_ok=True)
 out.write_text("\n".join(parts),encoding="utf-8")
+
+clock = ['<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-label="Distribution of authored GitHub commits by hour in Brazil time">', '<rect width="960" height="240" rx="18" fill="#0d1117" stroke="#30363d"/>']
+clock.append('<text x="32" y="40" fill="#e6edf3" font-size="18" font-weight="700" font-family="Arial">COMMIT RHYTHM / UTC-03</text>')
+clock.append(f'<text x="32" y="63" fill="#8b949e" font-size="12" font-family="Arial">Last 60 days · {observed} public authored commits observed, maximum 1,000 search results</text>')
+peak=max(hours) or 1
+for h,count in enumerate(hours):
+    bar=round(count*108/peak)
+    clock.append(f'<rect x="{35+h*37}" y="{191-bar}" width="24" height="{bar}" rx="3" fill="#3fb950"/>')
+    if h%3==0:
+        clock.append(f'<text x="{38+h*37}" y="213" fill="#8b949e" font-size="11" font-family="Arial">{h:02d}</text>')
+clock.append('</svg>')
+Path("assets/analytics/commits.svg").write_text("\\n".join(clock),encoding="utf-8")
+
 print(f"60-day contributions: {total}; commit contributions: {coll['totalCommitContributions']}; sampled authored commits: {observed}")
