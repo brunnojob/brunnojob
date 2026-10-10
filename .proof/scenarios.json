@@ -1,0 +1,33 @@
+{
+  "repository": "brunnojob/brunnojob",
+  "inputs": [
+    ".proof/scenarios.json",
+    ".proof/demo.py"
+  ],
+  "cases": [
+    {
+      "name": "python -m json.tool projects.json > /dev/null",
+      "argv": [
+        "bash",
+        "-e",
+        "-o",
+        "pipefail",
+        "-c",
+        "python -m json.tool projects.json > /dev/null"
+      ],
+      "timeout": 900,
+      "display": true
+    },
+    {
+      "name": "Load and render the actual project catalog",
+      "argv": [
+        "python",
+        ".proof/demo.py"
+      ],
+      "contains": [
+        "\"catalog\""
+      ],
+      "timeout": 120
+    }
+  ]
+}
