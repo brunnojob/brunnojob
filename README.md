@@ -186,4 +186,86 @@ Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Thir
 
 https://brunnodev.store
 
+## Engineering activity
+
+<details>
+<summary><b>Open the last 60 days of GitHub activity</b></summary>
+<br>
+
+A rolling view of my recent public GitHub activity, generated from first-party repository data and rendered as original SVG assets inside this repository.
+
+<p align="center">
+  <img src="assets/analytics/activity.svg" width="100%" alt="Brunno Dev activity overview for the last 60 days" />
+</p>
+
+<p align="center">
+  <img src="assets/analytics/commits.svg" width="100%" alt="Brunno Dev public commit rhythm by hour in Brasília time" />
+</p>
+
+### What is shown
+
+- Public contributions recorded by GitHub in the last 60 days
+- Commit contribution volume in the same rolling window
+- Most used languages across owned public non-fork repositories
+- Public commit rhythm by hour in Brasília time
+
+### Notes
+
+- The charts are generated from repository data in this project.
+- Language share is calculated from owned public repositories.
+- Commit timing is based on searchable public commits.
+
+[Activity source](scripts/profile_analytics.py) · [Refresh workflow](.github/workflows/profile-analytics.yml) · [Contribution history](https://github.com/brunnojob?tab=overview)
+
+</details>
+
+## Native implementations
+
+| Language / target | Working source |
+|---|---|
+| C17 | [Durable archive client](https://github.com/brunnojob/vercel-home-telemetry-api/tree/main/clients/c) |
+| C++ | [Concurrent task queue](https://github.com/brunnojob/cpp-safe-task-queue) |
+| C# | [Supabase inventory API](https://github.com/brunnojob/csharp-pantry-api) |
+| Java | [Balanced ledger](https://github.com/brunnojob/bank-crypto-ledger) |
+| Kotlin | [Android inspections](https://github.com/brunnojob/android-offshore-field-console) |
+| Swift | [Native inspection store](https://github.com/brunnojob/android-offshore-field-console/tree/main/ios) |
+| Ruby | [Git collaboration auditor](https://github.com/brunnojob/pair-extraordinaire-badge) |
+| IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
+| SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
+
+## Engineering activity
+
+<details>
+<summary><b>Open the last 60 days of GitHub activity</b></summary>
+<br>
+
+A rolling view of my recent public GitHub activity, generated from first-party repository data and rendered as original SVG assets inside this repository.
+
+<p align="center">
+  <img src="assets/analytics/activity.svg" width="100%" alt="Brunno Dev activity overview for the last 60 days" />
+</p>
+
+<p align="center">
+  <img src="assets/analytics/commits.svg" width="100%" alt="Brunno Dev public commit rhythm by hour in Brasília time" />
+</p>
+
+### What is shown
+
+- Public contributions recorded by GitHub in the last 60 days
+- Commit contribution volume in the same rolling window
+- Most used languages across owned public non-fork repositories
+- Public commit rhythm by hour in Brasília time
+
+### Notes
+
+- The charts are generated from repository data in this project.
+- Language share is calculated from owned public repositories.
+- Commit timing is based on searchable public commits.
+
+[Activity source](scripts/profile_analytics.py) · [Refresh workflow](.github/workflows/profile-analytics.yml) · [Contribution history](https://github.com/brunnojob?tab=overview)
+
+</details>
+
+https://brunnodev.store
+
 
