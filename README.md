@@ -26,8 +26,6 @@
 
 <a id="the-pact"></a>
 
-<iframe src="https://github.com/sponsors/brunnojob/button" title="Sponsor brunnojob" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
-
 ## I. The Pact
 
 ```text
