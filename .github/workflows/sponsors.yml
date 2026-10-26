@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
-  sponsorship:
-    types: [created, cancelled, edited, tier_changed, pending_cancellation, pending_tier_change]
   push:
     branches: [main]
     paths:
