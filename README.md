@@ -19,6 +19,7 @@
 [![V](https://img.shields.io/badge/V-EVIDENCE-0A0A0A?style=flat-square&labelColor=B3001B)](#evidence)
 [![VI](https://img.shields.io/badge/VI-CAST-0A0A0A?style=flat-square&labelColor=B3001B)](#cast)
 [![VII](https://img.shields.io/badge/VII-PROOF_OF_LIFE-0A0A0A?style=flat-square&labelColor=B3001B)](#proof)
+[![VIII](https://img.shields.io/badge/VIII-SPONSORS-0A0A0A?style=flat-square&labelColor=B3001B)](#sponsors)
 
 </div>
 
@@ -355,6 +356,27 @@ Run `python .proof/record.py` with the prerequisites listed in the execution ind
 
 </details>
 
+<img src="assets/noir/divider.svg" width="100%" alt="" />
+
+<a id="sponsors"></a>
+
+## VIII. Sponsors
+
+Support my open-source work with a monthly sponsorship or a one-time contribution from **$1**.
+
+- **Practical code:** projects, automations and architectures for real-world use.
+- **Technical support:** code reviews, troubleshooting and project guidance.
+- **Collaboration:** opportunities to build solutions together.
+
+[![Sponsor Brunno Dev](https://img.shields.io/badge/SPONSOR-BRUNNODEV-B3001B?style=for-the-badge&logo=githubsponsors&logoColor=F2EFE9&labelColor=0A0A0A)](https://github.com/sponsors/brunnojob)
+
+<!-- sponsors:start -->
+<sub>Your support keeps these projects moving. Be the first to join.</sub>
+<!-- sponsors:end -->
+
+<sub>Public monthly sponsors and one-time supporters are listed automatically. Updated hourly.</sub>
+
+
 <br/>
 
 <div align="center">
@@ -371,3 +393,4 @@ Run `python .proof/record.py` with the prerequisites listed in the execution ind
 <sub>Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Third-party dependencies and media retain their respective terms. Maintained by [Brunno Dev](https://brunnodev.store).</sub>
 
 </div>
+

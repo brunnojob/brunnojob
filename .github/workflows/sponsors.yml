@@ -1,0 +1,36 @@
+name: Update sponsors
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  sponsorship:
+    types: [created, cancelled, edited, tier_changed, pending_cancellation, pending_tier_change]
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sponsors.yml'
+      - '.github/scripts/sync_sponsors.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sponsors-sync
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update public monthly and one-time sponsors
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/sync_sponsors.py
