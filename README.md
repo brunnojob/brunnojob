@@ -362,19 +362,19 @@ Run `python .proof/record.py` with the prerequisites listed in the execution ind
 
 ## VIII. Sponsors
 
-Support my open-source work with a monthly sponsorship or a one-time contribution from **$1**.
+Support my open-source work on [Buy Me a Coffee](https://buymeacoffee.com/brunnodev).
 
 - **Practical code:** projects, automations and architectures for real-world use.
 - **Technical support:** code reviews, troubleshooting and project guidance.
 - **Collaboration:** opportunities to build solutions together.
 
-[![Sponsor Brunno Dev](https://img.shields.io/badge/SPONSOR-BRUNNODEV-B3001B?style=for-the-badge&logo=githubsponsors&logoColor=F2EFE9&labelColor=0A0A0A)](https://github.com/sponsors/brunnojob)
+[![Sponsor Brunno Dev](https://img.shields.io/badge/SPONSOR-BRUNNODEV-B3001B?style=for-the-badge&logo=buymeacoffee&logoColor=F2EFE9&labelColor=0A0A0A)](https://buymeacoffee.com/brunnodev)
 
 <!-- sponsors:start -->
 <sub>Your support keeps these projects moving. Be the first to join.</sub>
 <!-- sponsors:end -->
 
-<sub>Public monthly sponsors and one-time supporters are listed automatically. Updated hourly.</sub>
+<sub>Public GitHub Sponsors supporters are listed automatically and updated hourly. Buy Me a Coffee contributions are not synced to this list.</sub>
 
 
 <br/>
