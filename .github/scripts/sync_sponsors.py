@@ -74,11 +74,15 @@ def render(sponsors):
     for login in sponsors:
         label = html.escape(login, quote=True)
         cards.append(
-            f'<a href="https://github.com/{login}" title="{label}">'
-            f'<img src="https://github.com/{login}.png?size=96" width="48" height="48" '
-            f'alt="@{label}" /></a>'
+            f'<tr><td align="center" width="160">'
+            f'<a href="https://github.com/{login}">'
+            f'<img src="https://github.com/{login}.png?size=160" width="80" height="80" '
+            f'alt="@{label}" /><br /><strong>@{label}</strong></a>'
+            f'</td><td><strong>Thank you, @{label}.</strong><br />'
+            'Your support helps me maintain practical open-source projects and build new tools.'
+            '</td></tr>'
         )
-    return '<p align="center">\n' + "\n".join(cards) + "\n</p>"
+    return "<table>\n" + "\n".join(cards) + "\n</table>"
 
 
 def replace_sponsors(readme, sponsors):
