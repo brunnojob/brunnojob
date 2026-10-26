@@ -365,7 +365,9 @@ Run `python .proof/record.py` with the prerequisites listed in the execution ind
 Thank you to the people helping me maintain open-source projects and build useful tools.
 
 <!-- sponsors:start -->
-<sub>Your support keeps these projects moving. Be the first to join.</sub>
+<table>
+<tr><td align="center" width="160"><a href="https://github.com/ineedfoundmyway"><img src="https://github.com/ineedfoundmyway.png?size=160" width="80" height="80" alt="@ineedfoundmyway" /><br /><strong>@ineedfoundmyway</strong></a></td><td><strong>Thank you, @ineedfoundmyway.</strong><br />Your support helps me maintain practical open-source projects and build new tools.</td></tr>
+</table>
 <!-- sponsors:end -->
 
 ### Sponsor benefits
