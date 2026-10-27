@@ -6,7 +6,7 @@
 
 <br/>
 
-[![Enter the Lab](https://img.shields.io/badge/▶_ENTER_THE_LAB-brunnodev.store-B3001B?style=for-the-badge&labelColor=0A0A0A)](https://brunnodev.store/)
+[![Enter the Lab](https://img.shields.io/badge/ENTER_THE_LAB-brunnodev.store-B3001B?style=for-the-badge&labelColor=0A0A0A)](https://brunnodev.store/)
 [![View projects](https://img.shields.io/badge/VIEW_PROJECTS-B3001B?style=for-the-badge)](https://github.com/brunnojob/brunnojob/blob/main/PROJECTS.md)
 [![All public repositories](https://img.shields.io/badge/ALL_PUBLIC_REPOS-F2EFE9?style=for-the-badge&logo=github&logoColor=0A0A0A)](https://github.com/brunnojob?tab=repositories)
 
@@ -47,15 +47,16 @@ Neither leads. Neither falls.
 
 I build the choreography between the two.
 
+My starting point is programming logic in **C and Java**. I work outward from there: the protocol, the data model, the interface, then the person who has to use it. I choose a language for the job and leave the reasoning alongside the implementation.
+
 **Architecture, journeys and technical decisions focused on operational results.**
 SCADA, PLC, IoT, automation and signal reading for real processes.
 I connect engineering thinking, digital product and operational context to turn messy requirements into usable systems.
 
-> [!CAUTION]
-> This is not a portfolio. It is not a services page. **It is a working laboratory.**
+> **A working laboratory by Brunno Dev.** Follow a signal, inspect the source, and open the evidence behind it.
 
 <details>
-<summary><b>🎬 Director's notes</b> <sub>(open)</sub></summary>
+<summary><b>Director's notes</b> <sub>(open)</sub></summary>
 <br>
 
 | # | Rule on set |
@@ -74,19 +75,28 @@ I connect engineering thinking, digital product and operational context to turn 
 
 <sub>From a wire in the field to a decision on a screen. Every reel below is one stretch of this path.</sub>
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#050505','primaryColor':'#0a0a0a','primaryTextColor':'#f2efe9','primaryBorderColor':'#f2efe9','lineColor':'#b3001b','fontFamily':'Courier New, monospace'}}}%%
-flowchart LR
-  A["FIELD<br/>sensors · relays · signals"] -->|signal| B["PLC / SCADA<br/>logic · PID · Modbus"]
-  B -->|telemetry| C["CLOUD<br/>AWS · IoT · WebSockets"]
-  C -->|API| D["INTERFACE<br/>Android · POS · dashboards"]
-  D -->|decision| E["OPERATOR"]
-  E -. feedback .-> A
-  classDef beast fill:#b3001b,stroke:#f2efe9,color:#f2efe9
-  classDef grace fill:#f2efe9,stroke:#050505,color:#050505
-  class A beast
-  class E grace
-```
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/noir/signal-path-mobile.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/noir/signal-path.png" />
+  <source media="(max-width: 600px)" srcset="assets/noir/signal-path-mobile.gif" />
+  <img src="assets/noir/signal-path.gif" width="100%" alt="Signal path: field sensors and relays to PLC/SCADA logic, cloud telemetry, interface, and operator decisions. Feedback returns to the field." />
+</picture>
+
+<sub>Original motion study by Brunno Dev · conceptual flow · [Still diagram](assets/noir/signal-path.png) · [Mobile still](assets/noir/signal-path-mobile.png)</sub>
+
+### Choose a signal to follow
+
+| Start with | Follow the scene | Inspect the work |
+|---|---|---|
+| A relay, a sensor, a process | [01 / Industrial logic](#reel-01) | [SCADA Code Studio](https://github.com/brunnojob/scada-code-studio) |
+| A device sending readings | [02 / Telemetry](#reel-02) | [Bench-to-dashboard evidence](#evidence) |
+| A request crossing a boundary | [03 / Architecture](#reel-03) | [Balanced ledger](https://github.com/brunnojob/bank-crypto-ledger) |
+| An operator in the field | [04 / Mobile interfaces](#reel-04) | [Android field console](https://github.com/brunnojob/android-offshore-field-console) |
+| A checkout under pressure | [05 / POS systems](#reel-05) | [Stone POS evidence](#evidence) |
+
+<sub>Open each reel below for context, technologies and source code.</sub>
+
+<a id="reel-01"></a>
 
 <details>
 <summary><b>REEL 01 — Automation & industrial logic</b> · <i>the beast wakes up</i></summary>
@@ -105,6 +115,8 @@ Electrical commands, PLC/SCADA thinking and process visibility.
 
 </details>
 
+<a id="reel-02"></a>
+
 <details>
 <summary><b>REEL 02 — IoT & telemetry</b> · <i>the field starts talking</i></summary>
 <br>
@@ -121,6 +133,8 @@ Sensors, connected devices, cloud signals and real-time product feedback.
 ▸ On screen: [Durable archive client (C17)](https://github.com/brunnojob/vercel-home-telemetry-api/tree/main/clients/c) · [Arduino telemetry evidence](#evidence)
 
 </details>
+
+<a id="reel-03"></a>
 
 <details>
 <summary><b>REEL 03 — System architecture</b> · <i>the rules of the house</i></summary>
@@ -139,6 +153,8 @@ APIs, integrations, security boundaries and sustainable technical decisions.
 
 </details>
 
+<a id="reel-04"></a>
+
 <details>
 <summary><b>REEL 04 — Android field interfaces</b> · <i>gloves on, screen on</i></summary>
 <br>
@@ -155,6 +171,8 @@ Touch-first surfaces for mobile operators and hardware-aware workflows.
 ▸ On screen: [Android offshore field console](https://github.com/brunnojob/android-offshore-field-console) · [Native iOS inspection store](https://github.com/brunnojob/android-offshore-field-console/tree/main/ios)
 
 </details>
+
+<a id="reel-05"></a>
 
 <details>
 <summary><b>REEL 05 — POS & payment systems</b> · <i>the money scene</i></summary>
@@ -182,6 +200,7 @@ Checkout, catalog, inventory, cash control and role-based operations.
 <div align="center">
 
 <sub>LANGUAGES I SPEAK TO MACHINES</sub><br/>
+
 ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-0A0A0A?style=for-the-badge&logo=typescript&logoColor=F2EFE9)
 ![Python](https://img.shields.io/badge/PYTHON-0A0A0A?style=for-the-badge&logo=python&logoColor=F2EFE9)
 ![C](https://img.shields.io/badge/C-0A0A0A?style=for-the-badge&logo=c&logoColor=F2EFE9)
@@ -193,6 +212,7 @@ Checkout, catalog, inventory, cash control and role-based operations.
 ![Kotlin](https://img.shields.io/badge/KOTLIN-0A0A0A?style=for-the-badge&logo=kotlin&logoColor=F2EFE9)
 
 <sub>THE CRAFT</sub><br/>
+
 ![Full Stack](https://img.shields.io/badge/FULL--STACK-2B2B2B?style=for-the-badge)
 ![Systems Design](https://img.shields.io/badge/SYSTEMS_DESIGN-2B2B2B?style=for-the-badge)
 ![Cybersecurity](https://img.shields.io/badge/CYBERSECURITY-2B2B2B?style=for-the-badge)
@@ -201,6 +221,7 @@ Checkout, catalog, inventory, cash control and role-based operations.
 ![Testing](https://img.shields.io/badge/TESTING-2B2B2B?style=for-the-badge)
 
 <sub>THE BEAST — FIELD & CLOUD</sub><br/>
+
 ![PLC](https://img.shields.io/badge/PLC-B3001B?style=for-the-badge)
 ![SCADA](https://img.shields.io/badge/SCADA-B3001B?style=for-the-badge)
 ![IoT](https://img.shields.io/badge/IoT-B3001B?style=for-the-badge&logo=internetofthings&logoColor=F2EFE9)
@@ -209,6 +230,7 @@ Checkout, catalog, inventory, cash control and role-based operations.
 ![Oracle Cloud IoT](https://img.shields.io/badge/ORACLE_CLOUD_IoT-B3001B?style=for-the-badge&logo=oracle&logoColor=F2EFE9)
 
 <sub>THE GRACE — BEYOND CODE</sub><br/>
+
 ![Project Management](https://img.shields.io/badge/PROJECT_MANAGEMENT-F2EFE9?style=for-the-badge)
 ![Technical Writing](https://img.shields.io/badge/TECHNICAL_WRITING-F2EFE9?style=for-the-badge)
 ![Cambridge C2](https://img.shields.io/badge/CAMBRIDGE_ENGLISH-C2-F2EFE9?style=for-the-badge&labelColor=0A0A0A)
@@ -342,7 +364,7 @@ Checkout, catalog, inventory, cash control and role-based operations.
 
 ## VII. Proof of Life
 
-<sub>Execution proof. The film is not edited: every scene runs.</sub>
+<sub>Recorded execution evidence for the scenarios listed in the index. Check the source commit and prerequisites before reproducing a run.</sub>
 
 [![Executable proof](https://github.com/brunnojob/brunnojob/actions/workflows/proof.yml/badge.svg)](https://github.com/brunnojob/brunnojob/actions/workflows/proof.yml)
 
@@ -362,26 +384,43 @@ Run `python .proof/record.py` with the prerequisites listed in the execution ind
 
 ## VIII. Sponsors
 
-Thank you to the people helping me maintain open-source projects and build useful tools.
+<a href="https://github.com/sponsors/brunnojob">
+  <img src="assets/noir/sponsors.gif" width="100%" alt="Keep the lab in motion. Support Brunno Dev's open tools, documented decisions and working examples." />
+</a>
+
+I build around a simple loop: investigate a real problem, make the implementation inspectable, and document what it takes to run it. Sponsorship helps me keep that work moving.
+
+<p align="center">
+  <a href="https://github.com/sponsors/brunnojob"><img src="https://img.shields.io/badge/GITHUB_SPONSORS-SUPPORT_THE_LAB-B3001B?style=for-the-badge&logo=github&logoColor=F2EFE9&labelColor=0A0A0A" alt="Support the lab on GitHub Sponsors" /></a>
+  <a href="https://buymeacoffee.com/brunnodev"><img src="https://img.shields.io/badge/BUY_ME_A_COFFEE-ONE_TIME_SUPPORT-F2EFE9?style=for-the-badge&labelColor=0A0A0A" alt="Support Brunno Dev on Buy Me a Coffee" /></a>
+</p>
+
+### The people behind the next frame
 
 <!-- sponsors:start -->
-<table>
-<tr><td align="center" width="160"><a href="https://github.com/ineedfoundmyway"><img src="https://github.com/ineedfoundmyway.png?size=160" width="80" height="80" alt="@ineedfoundmyway" /><br /><strong>@ineedfoundmyway</strong></a></td><td><strong>Thank you, @ineedfoundmyway.</strong><br />Your support helps me maintain practical open-source projects and build new tools.</td></tr>
+<table width="100%">
+<tr><td align="center" valign="top"><a href="https://github.com/ineedfoundmyway"><img src="https://github.com/ineedfoundmyway.png?size=160" width="80" height="80" alt="Public supporter @ineedfoundmyway" /><br /><strong>@ineedfoundmyway</strong></a><br /><sub>PART OF THE STORY</sub><br /><sub>Thank you for supporting the lab.</sub></td></tr>
 </table>
 <!-- sponsors:end -->
 
-### Sponsor benefits
+### What your support helps sustain
 
-- **Technical support:** code reviews, troubleshooting and project guidance.
-- **Practical knowledge:** help applying my projects, automations and architectures.
-- **Collaboration:** discuss ideas and opportunities to build together.
+| In the lab | For the people using it |
+|---|---|
+| Maintenance and troubleshooting | Projects that remain useful beyond the first release |
+| Reproducible examples and documentation | A clearer path from reading the source to running it |
+| New tools and technical experiments | More decisions, tradeoffs and results shared in the open |
 
-The benefits above are described publicly. Personal support and project discussions are reserved for verified sponsors. Access instructions are provided privately in the GitHub Sponsors welcome message.
+<details>
+<summary><b>Sponsor access / support and collaboration</b></summary>
 
-[![Sponsor Brunno Dev](https://img.shields.io/badge/SPONSOR-BRUNNODEV-B3001B?style=for-the-badge&logo=buymeacoffee&logoColor=F2EFE9&labelColor=0A0A0A)](https://buymeacoffee.com/brunnodev)
-[GitHub Sponsors](https://github.com/sponsors/brunnojob)
+Verified sponsors can discuss code reviews, troubleshooting, project guidance and collaboration ideas. Access instructions are provided privately in the GitHub Sponsors welcome message; refer to the selected tier for its terms.
 
-<sub>Only public GitHub sponsorships are shown here; the list refreshes hourly. Buy Me a Coffee contributions require separate verification.</sub>
+Buy Me a Coffee contributions use separate verification. Please do not post payment details or private project information in public issues.
+
+</details>
+
+<sub>Public GitHub supporters are synchronized by the scheduled workflow. Private sponsorships are not displayed. [Sponsor options](https://github.com/sponsors/brunnojob) · [Explore the work first](PROJECTS.md)</sub>
 
 <br/>
 
@@ -393,7 +432,9 @@ The benefits above are described publicly. Personal support and project discussi
 
 **BUILD SYSTEMS. READ SIGNALS. SHIP OPERATIONS.**
 
-[![brunnodev.store](https://img.shields.io/badge/🌐_BRUNNODEV.STORE-0A0A0A?style=for-the-badge&labelColor=B3001B)](https://brunnodev.store/)
+[Back to the opening](#the-pact) · [Follow a signal](#signal-path) · [Support the next frame](#sponsors)
+
+[![brunnodev.store](https://img.shields.io/badge/BRUNNODEV.STORE-0A0A0A?style=for-the-badge&labelColor=B3001B)](https://brunnodev.store/)
 [![View projects](https://img.shields.io/badge/VIEW_ALL_PROJECTS-B3001B?style=for-the-badge)](https://github.com/brunnojob/brunnojob/blob/main/PROJECTS.md)
 
 <sub>Original source and documentation are MIT licensed; see [LICENSE](LICENSE). Third-party dependencies and media retain their respective terms. Maintained by [Brunno Dev](https://brunnodev.store).</sub>
