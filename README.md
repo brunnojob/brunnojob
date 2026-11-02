@@ -421,7 +421,7 @@ Buy Me a Coffee contributions use separate verification. Please do not post paym
 </details>
 
 <sub>Public GitHub supporters are synchronized by the scheduled workflow. Private sponsorships are not displayed. [Sponsor options](https://github.com/sponsors/brunnojob) · [Explore the work first](PROJECTS.md)</sub>
-
+[![Starred on StarSwap](https://www.fenriryt.me/badge/brunnojob)](https://www.fenriryt.me/u/brunnojob?ref=badge)
 <br/>
 
 <div align="center">
