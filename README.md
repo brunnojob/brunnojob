@@ -9,6 +9,7 @@
 [![Enter the Lab](https://img.shields.io/badge/ENTER_THE_LAB-brunnodev.store-B3001B?style=for-the-badge&labelColor=0A0A0A)](https://brunnodev.store/)
 [![View projects](https://img.shields.io/badge/VIEW_PROJECTS-B3001B?style=for-the-badge)](https://github.com/brunnojob/brunnojob/blob/main/PROJECTS.md)
 [![All public repositories](https://img.shields.io/badge/ALL_PUBLIC_REPOS-F2EFE9?style=for-the-badge&logo=github&logoColor=0A0A0A)](https://github.com/brunnojob?tab=repositories)
+[![Starred on StarSwap](https://www.fenriryt.me/badge/brunnojob)](https://www.fenriryt.me/u/brunnojob?ref=badge)
 
 <sub>choose your scene</sub>
 
@@ -421,7 +422,7 @@ Buy Me a Coffee contributions use separate verification. Please do not post paym
 </details>
 
 <sub>Public GitHub supporters are synchronized by the scheduled workflow. Private sponsorships are not displayed. [Sponsor options](https://github.com/sponsors/brunnojob) · [Explore the work first](PROJECTS.md)</sub>
-[![Starred on StarSwap](https://www.fenriryt.me/badge/brunnojob)](https://www.fenriryt.me/u/brunnojob?ref=badge)
+
 <br/>
 
 <div align="center">
