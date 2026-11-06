@@ -29,10 +29,7 @@ I turn operational requirements into usable software, connecting field devices, 
 
 <p align="center">
   <a href="https://brunnodev.store/">
-    <picture>
-      <source media="(prefers-reduced-motion: reduce)" srcset="assets/sponsors/thank-you.png" />
-      <img src="assets/sponsors/thank-you.gif" width="420" alt="Brunno holding a THANK YOU! sign for the people supporting his open-source work" />
-    </picture>
+    <img src="assets/sponsors/thank-you.png" width="420" alt="Brunno holding a THANK YOU! sign for the people supporting his open-source work" />
   </a>
 </p>
 
