@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+<title id="title">Brunno Dev — Software, systems and field operations</title>
+<desc id="desc">A compact midnight blue and warm amber wordmark inspired by the profile photograph.</desc>
+<rect width="1200" height="160" rx="12" fill="#101d35"/>
+<rect x="36" y="39" width="4" height="82" rx="2" fill="#daa75b"/>
+<text x="60" y="82" fill="#faf7f0" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="700" letter-spacing="2">BRUNNO DEV</text>
+<text x="62" y="115" fill="#c2cddf" font-family="Arial,Helvetica,sans-serif" font-size="18">Software, systems &amp; field operations</text>
+<text x="1140" y="62" text-anchor="end" fill="#daa75b" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">BRAZIL / GLOBAL</text>
+<text x="1140" y="112" text-anchor="end" fill="#c2cddf" font-family="Arial,Helvetica,sans-serif" font-size="15">brunnodev.store</text>
+</svg>
