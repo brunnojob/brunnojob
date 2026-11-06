@@ -26,6 +26,33 @@
 
 <img src="assets/noir/divider.svg" width="100%" alt="" />
 
+<a id="code-partner"></a>
+
+<div align="center">
+
+<a href="https://github.com/ineedfoundmyway">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/noir/code-partner.png" />
+    <img src="assets/noir/code-partner.gif" width="100%" alt="Official Code Partner — ineedfoundmyway. Two perspectives, one shared craft. Open the partner profile." />
+  </picture>
+</a>
+
+**Official Code Partner · [@ineedfoundmyway](https://github.com/ineedfoundmyway)**
+
+<sub>Two perspectives. One shared craft. Code, review, and build together.</sub>
+
+<details>
+<summary><b>Meet the partner</b> <sub>(open)</sub></summary>
+<br />
+
+<a href="https://github.com/ineedfoundmyway">Explore @ineedfoundmyway's profile and repositories</a> — my official code partner in the lab.
+
+</details>
+
+</div>
+
+<img src="assets/noir/divider.svg" width="100%" alt="" />
+
 <a id="the-pact"></a>
 
 ## I. The Pact
