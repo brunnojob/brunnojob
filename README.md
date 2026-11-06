@@ -25,6 +25,29 @@ I turn operational requirements into usable software, connecting field devices, 
 
 </details>
 
+## Check out [brunnodev](https://brunnodev.store/)!
+
+<p align="center">
+  <a href="https://brunnodev.store/">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/sponsors/thank-you.png" />
+      <img src="assets/sponsors/thank-you.gif" width="420" alt="Brunno holding a THANK YOU! sign for the people supporting his open-source work" />
+    </picture>
+  </a>
+</p>
+
+### Sponsors
+
+Thank you for supporting my open-source work. Click a photo or name to visit their GitHub profile.
+
+<!-- sponsors:start -->
+<table width="100%">
+<tr><td align="center" valign="top"><a href="https://github.com/ineedfoundmyway"><img src="https://github.com/ineedfoundmyway.png?size=160" width="80" height="80" alt="Public supporter @ineedfoundmyway" /><br /><strong>@ineedfoundmyway</strong></a><br /><sub>PART OF THE STORY</sub><br /><sub>Thank you for supporting the lab.</sub></td></tr>
+</table>
+<!-- sponsors:end -->
+
+[Become a sponsor](https://github.com/sponsors/brunnojob) · [Buy Me a Coffee](https://buymeacoffee.com/brunnodev)
+
 ## Tools for the developer community
 
 | Project | What it helps you do | Explore |
@@ -206,11 +229,7 @@ Support helps maintain open tools, troubleshoot issues, publish reproducible exa
 <details>
 <summary><b>Public supporters & sponsor collaboration</b></summary>
 
-<!-- sponsors:start -->
-<table width="100%">
-<tr><td align="center" valign="top"><a href="https://github.com/ineedfoundmyway"><img src="https://github.com/ineedfoundmyway.png?size=160" width="80" height="80" alt="Public supporter @ineedfoundmyway" /><br /><strong>@ineedfoundmyway</strong></a><br /><sub>PART OF THE STORY</sub><br /><sub>Thank you for supporting the lab.</sub></td></tr>
-</table>
-<!-- sponsors:end -->
+
 
 Verified sponsors can discuss code reviews, troubleshooting, project guidance and collaboration. Private access instructions are in the GitHub Sponsors welcome message; selected tier terms apply. Buy Me a Coffee uses separate verification. Keep payment details and private project information out of public issues.
 
