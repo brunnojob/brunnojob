@@ -12,7 +12,7 @@
 <a href="https://rfwallmarket.com/"><img src="assets/profile/wallmarket-favicon.png" width="20" height="20" alt="RF WALLMARKET favicon" /> <strong>CEO · RF WALLMARKET</strong></a>
 </p>
 
-[Laboratório](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [All projects](#all-projects) · [Sponsor](https://donate.stripe.com/6oU8wQg9k9Hb8809CrfQI01)
+[Laboratório](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [All projects](#all-projects) · [Sponsor](https://github.com/sponsors/brunnojob)
 
 <details>
 <summary>Read the profile summary</summary>
@@ -46,7 +46,7 @@ Thank you for supporting my open-source work. Click a photo or name to visit the
 </table>
 <!-- sponsors:end -->
 
-[Become a sponsor](https://donate.stripe.com/6oU8wQg9k9Hb8809CrfQI01) · [Buy Me a Coffee](https://buymeacoffee.com/brunnodev)
+[Become a sponsor](https://github.com/sponsors/brunnojob) · [Buy Me a Coffee](https://buymeacoffee.com/brunnodev)
 
 ## Tools for the developer community
 
@@ -222,7 +222,7 @@ Run `python .proof/record.py` with the prerequisites in the [execution index](do
 
 ## Support the work
 
-[Sponsor via Stripe](https://donate.stripe.com/6oU8wQg9k9Hb8809CrfQI01) · [GitHub Sponsors](https://github.com/sponsors/brunnojob) · [Buy Me a Coffee](https://buymeacoffee.com/brunnodev)
+[GitHub Sponsors](https://github.com/sponsors/brunnojob) · [Donate via Stripe](https://donate.stripe.com/6oU8wQg9k9Hb8809CrfQI01) · [Buy Me a Coffee](https://buymeacoffee.com/brunnodev)
 
 Stripe donations do not grant GitHub’s official Public Sponsor achievement. For GitHub sponsor recognition, contribute through [GitHub Sponsors](https://github.com/sponsors/brunnojob) and choose public visibility. GitHub controls achievement eligibility and display.
 
