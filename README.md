@@ -224,7 +224,9 @@ Run `python .proof/record.py` with the prerequisites in the [execution index](do
 
 [Sponsor via Stripe](https://donate.stripe.com/6oU8wQg9k9Hb8809CrfQI01) · [GitHub Sponsors](https://github.com/sponsors/brunnojob) · [Buy Me a Coffee](https://buymeacoffee.com/brunnodev)
 
-Stripe donations do not grant GitHub’s official Public Sponsor achievement. For GitHub sponsor recognition, contribute through [GitHub Sponsors](https://github.com/sponsors/brunnojob) and choose public visibility. GitHub controls achievement eligibility and display.\n\nSupport helps maintain open tools, troubleshoot issues, publish reproducible examples and documentation, and share new experiments and technical decisions.
+Stripe donations do not grant GitHub’s official Public Sponsor achievement. For GitHub sponsor recognition, contribute through [GitHub Sponsors](https://github.com/sponsors/brunnojob) and choose public visibility. GitHub controls achievement eligibility and display.
+
+Support helps maintain open tools, troubleshoot issues, publish reproducible examples and documentation, and share new experiments and technical decisions.
 
 <details>
 <summary><b>Public supporters & sponsor collaboration</b></summary>
