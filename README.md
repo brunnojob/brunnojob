@@ -1,5 +1,21 @@
 <a id="top"></a>
-<a href="https://brunnodev.store/"><img src="assets/profile/header.svg" width="100%" alt="Brunno Dev — Software, systems and field operations. Brazil / Global." /></a>
+<a href="https://brunnodev.store/">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/intro.png" />
+  <img src="assets/profile/intro.gif" width="100%" alt="Brunno Dev — Full-stack, cybersecurity, industrial automation and low-code. I connect field devices, APIs and interfaces. C and Java foundation. CEO at RF Offshore and RF WALLMARKET. Cambridge C2 English." />
+</picture>
+</a>
+
+<p>
+<a href="https://rf-offshore.com/"><img src="assets/profile/offshore-favicon.png" width="20" height="20" alt="RF Offshore favicon" /> <strong>CEO · RF Offshore</strong></a>
+&nbsp; · &nbsp;
+<a href="https://rfwallmarket.com/"><img src="assets/profile/wallmarket-favicon.png" width="20" height="20" alt="RF WALLMARKET favicon" /> <strong>CEO · RF WALLMARKET</strong></a>
+</p>
+
+[Portfolio](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [All projects](#all-projects) · [Sponsor](#sponsors)
+
+<details>
+<summary>Read the profile summary</summary>
 
 **Full-stack development · Cybersecurity · Industrial automation · Low-code**
 
@@ -7,7 +23,7 @@ I turn operational requirements into usable software, connecting field devices, 
 
 **CEO:** [RF Offshore](https://rf-offshore.com/) · [RF WALLMARKET](https://rfwallmarket.com/) &nbsp; | &nbsp; **English:** Cambridge C2
 
-[Portfolio](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [All projects](#all-projects) · [Sponsor](#sponsors)
+</details>
 
 ## Tools for the developer community
 
