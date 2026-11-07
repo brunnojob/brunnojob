@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Brunno Dev. Software development and industrial systems."><title>Brunno Dev — Software &amp; industrial systems</title><defs><linearGradient id="bg" x2="1" y2=".6"><stop stop-color="#071724"/><stop offset=".55" stop-color="#101b2b"/><stop offset="1" stop-color="#29201d"/></linearGradient><linearGradient id="blue"><stop stop-color="#126baf" stop-opacity=".1"/><stop offset="1" stop-color="#2196d2" stop-opacity=".7"/></linearGradient><radialGradient id="warm"><stop stop-color="#e8a35b" stop-opacity=".25"/><stop offset="1" stop-color="#d88640" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="440" rx="20" fill="url(#bg)"/><rect x=".5" y=".5" width="1199" height="439" rx="20" fill="none" stroke="#344251"/>
+<circle cx="1090" cy="75" r="290" fill="url(#warm)"/>
+<g fill="none" stroke="#668398" opacity=".12"><path d="M810 0v440M890 0v440M970 0v440M1050 0v440M1130 0v440M740 80h460M740 160h460M740 240h460M740 320h460M740 400h460"/></g>
+<g fill="none" stroke-width="2"><path d="M750 350h95l45-74h82l45-65h183" stroke="#cc965d" opacity=".55"/><path d="M670 390h160l60-40h94l55-74h161" stroke="url(#blue)"/><path d="M900 440v-42l66-30h234" stroke="#3086b0" opacity=".3"/></g>
+<g fill="#e8b47c"><circle cx="890" cy="276" r="5"/><circle cx="1017" cy="211" r="5"/></g>
+<style>@media(prefers-reduced-motion:reduce){animate{display:none}}</style><g fill="#4dbee7"><circle cx="890" cy="350" r="4"/><circle cx="1039" cy="276" r="4"><animate attributeName="opacity" values=".45;1;.45" dur="5s" repeatCount="indefinite"/></circle></g>
+<g font-family="Arial,Helvetica,sans-serif"><text x="58" y="55" fill="#bdcbd6" font-size="14" letter-spacing="4">SOFTWARE / SYSTEMS / FIELD OPERATIONS</text>
+<rect x="58" y="88" width="42" height="4" rx="2" fill="#e4ae72"/><text x="54" y="168" font-size="76" font-weight="700" letter-spacing="-3" fill="#f4f3ef">BRUNNO DEV</text>
+<text x="58" y="220" fill="#f1c99c" font-size="26">Software development &amp; industrial systems.</text>
+<text x="58" y="271" fill="#bdcbd6" font-size="22">Turning complex operational processes</text><text x="58" y="302" fill="#bdcbd6" font-size="22">into reliable digital solutions.</text>
+<text x="58" y="358" fill="#d3dce5" font-size="16">FULL-STACK  /  CYBERSECURITY  /  AUTOMATION  /  LOW-CODE</text>
+<path d="M58 385h540" stroke="#465260" opacity=".5"/><text x="58" y="414" fill="#91a7b8" font-size="15">C &amp; Java foundation</text><text x="280" y="414" fill="#91a7b8" font-size="15">Cambridge C2 English</text>
+<text x="1127" y="55" text-anchor="end" fill="#b4a797" font-size="13" letter-spacing="2">BRAZIL / GLOBAL</text></g></svg>
