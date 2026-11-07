@@ -1,5 +1,8 @@
 <a id="top"></a>
-<a href="https://brunnodev.store/"><img src="assets/profile/intro-v2.svg" width="100%" alt="Brunno Dev — Software development and industrial systems. Turning complex operational processes into reliable digital solutions." /></a>
+<img src="assets/profile/intro-v2.svg" width="100%" alt="brunnodev — SOFTWARE ENGINEER | ELECRICAL | OFFSHORE DEVELOPER. Archimedes will be remembered when Aeschylus is forgotten, because languages die but mathematical ideas endure." />
+<p>
+<img src="assets/profile/profile-foundation.svg" width="68%" alt="C and Java foundation · Cambridge C2 English" />
+<a href="https://brunnodev.store/" title="Open the laboratory"><img src="assets/profile/enter-lab.svg" width="30%" alt="ENTER ON LAB — visit brunnodev.store" /></a></p>
 
 <p align="center">
 <a href="https://rf-offshore.com/"><img src="assets/profile/offshore-card.svg" width="49%" alt="CEO at RF Offshore — visit RF Offshore" /></a>
