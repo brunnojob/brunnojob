@@ -1,10 +1,10 @@
 <a id="top"></a>
-<a href="https://brunnodev.store/">
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/intro.png" />
-  <img src="assets/profile/intro.gif" width="100%" alt="Brunno Dev — Full-stack, cybersecurity, industrial automation and low-code. I connect field devices, APIs and interfaces. C and Java foundation. CEO at RF Offshore and RF WALLMARKET. Cambridge C2 English." />
-</picture>
-</a>
+<a href="https://brunnodev.store/"><img src="assets/profile/intro-v2.svg" width="100%" alt="Brunno Dev — Software development and industrial systems. Turning complex operational processes into reliable digital solutions." /></a>
+
+<p align="center">
+<a href="https://rf-offshore.com/"><img src="assets/profile/offshore-card.svg" width="49%" alt="CEO at RF Offshore — visit RF Offshore" /></a>
+<a href="https://rfwallmarket.com/"><img src="assets/profile/wallmarket-card.svg" width="49%" alt="CEO at RF WALLMARKET — visit RF WALLMARKET" /></a>
+</p>
 
 <p>
 <a href="https://rf-offshore.com/"><img src="assets/profile/offshore-favicon.png" width="20" height="20" alt="RF Offshore favicon" /> <strong>CEO · RF Offshore</strong></a>
@@ -12,7 +12,7 @@
 <a href="https://rfwallmarket.com/"><img src="assets/profile/wallmarket-favicon.png" width="20" height="20" alt="RF WALLMARKET favicon" /> <strong>CEO · RF WALLMARKET</strong></a>
 </p>
 
-[Laboratório](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [All projects](#all-projects) · [Sponsor](https://github.com/sponsors/brunnojob)
+[Laboratory](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [All projects](#all-projects) · [Sponsor](https://github.com/sponsors/brunnojob)
 
 <details>
 <summary>Read the profile summary</summary>
