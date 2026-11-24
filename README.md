@@ -1,16 +1,103 @@
 <a id="top"></a>
 
+# Brunno Dev
+
+**Open Sourcer · Software Engineer · Industrial Systems**
+
+I build open-source tools for the work developers do every day: learning, reviewing changes, diagnosing failed builds and maintaining repositories. I bring the same approach to industrial automation and offshore operations, connecting field signals and control logic to the interfaces operators use.
+
+[Portfolio](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
+
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/lab-hero.png" />
   <img src="assets/profile/lab-hero.gif" width="100%" alt="brunnodev — Software engineer. Electrical / offshore developer. Software, industrial systems and operational thinking." />
 </picture>
 
-I build software around operational problems: developer workflows, industrial control, telemetry and field interfaces. My foundation is **C and Java**; my work connects **hardware, firmware, APIs and the people using them**.
+<a id="tools-for-the-developer-community"></a>
 
-**Full-stack · Cybersecurity · Industrial automation · Low-code**  
-**Cambridge C2 English** · Brazil / international collaboration
+## Open-source projects
 
-[Enter the laboratory ↗](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Skills](#skills) · [Evidence](#evidence) · [Sponsors](#sponsors)
+### DevStart Lab
+
+Learn programming through a roadmap, hands-on exercises and a path to your first GitHub pull request.
+
+**[Start learning ↗](https://brunnojob.github.io/devstart-lab/?lang=en)** · [Source](https://github.com/brunnojob/devstart-lab) · [Português](https://brunnojob.github.io/devstart-lab/?lang=pt)
+
+<details>
+<summary>Preview DevStart Lab</summary>
+
+[![Programming roadmap and interactive learning example](https://raw.githubusercontent.com/brunnojob/devstart-lab/main/public/media/devstart-lab-preview.png)](https://brunnojob.github.io/devstart-lab/?lang=en)
+
+</details>
+
+### PatchScope
+
+Turn a large diff into a review checklist with file and line references. Available in the browser, CLI and GitHub Actions.
+
+**[Review a diff ↗](https://brunnojob.github.io/patchscope/)** · [Source](https://github.com/brunnojob/patchscope) · [Watch the 18-second walkthrough](https://brunnojob.github.io/patchscope/docs/launch/demo.html)
+
+<details>
+<summary>Preview PatchScope</summary>
+
+[![Review map showing prompts alongside the file diff](https://raw.githubusercontent.com/brunnojob/patchscope/main/docs/preview.jpg)](https://brunnojob.github.io/patchscope/)
+
+</details>
+
+### CIFuse
+
+Group CI failures and trace them to the relevant log lines, source context and investigation steps.
+
+**[Inspect a CI log ↗](https://brunnojob.github.io/cifuse/)** · [Source](https://github.com/brunnojob/cifuse)
+
+<details>
+<summary>Preview CIFuse</summary>
+
+[![CIFuse workbench grouping failures from a sample CI log](https://raw.githubusercontent.com/brunnojob/cifuse/main/site/demo.gif)](https://brunnojob.github.io/cifuse/)
+
+</details>
+
+### RepoRelief
+
+Prioritize repository maintenance across documentation, broken local links and missing test-file matches.
+
+**[Run a repository audit ↗](https://brunnojob.github.io/reporelief/)** · [Source](https://github.com/brunnojob/reporelief)
+
+<details>
+<summary>Preview RepoRelief</summary>
+
+[![RepoRelief generating a maintenance plan for a sample repository](https://raw.githubusercontent.com/brunnojob/reporelief/main/docs/assets/demo.gif)](https://brunnojob.github.io/reporelief/)
+
+</details>
+
+### RevScope
+
+Compare reverse engineering tools in a searchable catalog with links to official documentation.
+
+**[Explore the catalog ↗](https://brunnojob.github.io/revscope/)** · [Source](https://github.com/brunnojob/revscope)
+
+<details>
+<summary>Preview RevScope</summary>
+
+[![RevScope searchable tool catalog](https://raw.githubusercontent.com/brunnojob/revscope/main/assets/catalog-preview.gif)](https://brunnojob.github.io/revscope/)
+
+</details>
+
+### SCADA Code Studio
+
+Explore industrial control logic in a browser and inspect recorded execution examples.
+
+**[Open the studio ↗](https://brunnojob.github.io/scada-code-studio/)** · [Source](https://github.com/brunnojob/scada-code-studio)
+
+<details>
+<summary>Preview SCADA Code Studio</summary>
+
+[![Recorded execution in the SCADA Code Studio browser interface](https://raw.githubusercontent.com/brunnojob/scada-code-studio/main/docs/proof/browser.png)](https://brunnojob.github.io/scada-code-studio/)
+
+</details>
+
+## Engineering leadership
+
+I lead RF Offshore and RF WALLMARKET. My work spans offshore field operations, industrial systems and autonomous retail infrastructure.
 
 <p align="center">
   <a href="https://rf-offshore.com/" title="RF Offshore — company website"><picture>
@@ -22,18 +109,6 @@ I build software around operational problems: developer workflows, industrial co
     <img src="assets/profile/wallmarket-motion.gif" width="49%" alt="CEO · RF WALLMARKET. Retail systems and automation. Visit company website." />
   </picture></a>
 </p>
-
-## Tools for the developer community
-
-| Project | Problem → approach | Try it |
-|---|---|---|
-| **[PatchScope](https://github.com/brunnojob/patchscope)** | Large diffs → focused review checklists with file and line evidence. Browser, CLI and GitHub Actions. | [Review a diff ↗](https://brunnojob.github.io/patchscope/) |
-| **[CIFuse](https://github.com/brunnojob/cifuse)** | Noisy CI logs → grouped failure signals, source context and investigation steps. Browser, CLI and GitHub Actions. | [Inspect a log ↗](https://brunnojob.github.io/cifuse/) |
-| **[DevStart Lab](https://github.com/brunnojob/devstart-lab)** | Unsure where to begin → a programming roadmap, exercises and project ideas through the first pull request. | [Start learning ↗](https://brunnojob.github.io/devstart-lab/?lang=en) |
-| **[RepoRelief](https://github.com/brunnojob/reporelief)** | Scattered maintenance work → a prioritized plan for documentation gaps, broken local links and missing test-file matches. Browser and CLI. | [Run an audit ↗](https://brunnojob.github.io/reporelief/) |
-| **[RevScope](https://github.com/brunnojob/revscope)** | Too many reverse engineering tools → a searchable catalog with comparisons, official documentation and task-based workflows. | [Explore tools ↗](https://brunnojob.github.io/revscope/) |
-
-PatchScope, CIFuse and RepoRelief process inputs locally with static heuristics. Their reports support review; they do not establish correctness, root cause or test coverage.
 
 <a id="skills"></a>
 
@@ -95,7 +170,7 @@ I start with the signal, then the protocol, data model, interface and person usi
 
 <a id="evidence"></a>
 
-## Evidence
+## Execution evidence
 
 [![Executable proof](https://github.com/brunnojob/brunnojob/actions/workflows/proof.yml/badge.svg)](https://github.com/brunnojob/brunnojob/actions/workflows/proof.yml)
 
@@ -174,7 +249,7 @@ Run `python .proof/record.py` with the prerequisites in the [execution index](do
 
 <a id="all-projects"></a>
 
-## Beyond developer tools
+## Project catalog
 
 Electrical control, embedded telemetry, mobile operations and retail systems live in the [project catalog](PROJECTS.md). Start with [SCADA Code Studio](https://github.com/brunnojob/scada-code-studio), [PID pressure control](https://github.com/brunnojob/pid-pressure-control) or [industrial IoT event handling](https://github.com/brunnojob/industrial-iot-sentinel).
 
