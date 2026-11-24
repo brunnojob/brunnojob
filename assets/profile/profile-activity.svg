@@ -12,25 +12,24 @@
 <path d="M30 53H530" stroke="#2a4766"/>
 <g transform="translate(30 82)">
   <text class="label" y="0">Commits</text>
-  <text class="number" y="34">—</text>
+  <text class="number" y="34">149,548</text>
   <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
   <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-0.0s"/>
 </g><g transform="translate(300 82)">
   <text class="label" y="0">Pull requests</text>
-  <text class="number" y="34">—</text>
+  <text class="number" y="34">1,101</text>
   <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
   <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-0.5s"/>
 </g><g transform="translate(30 164)">
   <text class="label" y="0">Code reviews</text>
-  <text class="number" y="34">—</text>
+  <text class="number" y="34">302</text>
   <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
   <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-1.0s"/>
 </g><g transform="translate(300 164)">
   <text class="label" y="0">Contributions</text>
-  <text class="number" y="34">—</text>
+  <text class="number" y="34">184,784</text>
   <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
   <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-1.5s"/>
 </g>
 <text x="30" y="229" style="font:12px system-ui,sans-serif;fill:#a9c4df">Public contribution history recorded by GitHub</text>
 </svg>
-
