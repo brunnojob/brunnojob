@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 248" width="560" height="248" role="img" aria-labelledby="title">
+<title id="title">GitHub activity totals</title>
+<style>
+.label {font: 15px system-ui,sans-serif; fill:#a9c4df}
+.number {font: bold 28px system-ui,sans-serif; fill:#f3f8ff}
+.signal {animation:sweep 2.8s ease-in-out infinite alternate}
+@keyframes sweep {to {transform:translateX(188px)}}
+@media(prefers-reduced-motion:reduce) {.signal {animation:none}}
+</style>
+<rect x="1" y="1" width="558" height="246" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/>
+<text x="30" y="37" style="font:16px monospace;fill:#79c4ff">GITHUB ACTIVITY TOTALS</text>
+<path d="M30 53H530" stroke="#2a4766"/>
+<g transform="translate(30 82)">
+  <text class="label" y="0">Commits</text>
+  <text class="number" y="34">—</text>
+  <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
+  <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-0.0s"/>
+</g><g transform="translate(300 82)">
+  <text class="label" y="0">Pull requests</text>
+  <text class="number" y="34">—</text>
+  <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
+  <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-0.5s"/>
+</g><g transform="translate(30 164)">
+  <text class="label" y="0">Code reviews</text>
+  <text class="number" y="34">—</text>
+  <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
+  <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-1.0s"/>
+</g><g transform="translate(300 164)">
+  <text class="label" y="0">Contributions</text>
+  <text class="number" y="34">—</text>
+  <rect y="45" width="220" height="3" rx="1.5" fill="#294866"/>
+  <rect class="signal" y="45" width="32" height="3" rx="1.5" fill="#70c6ff" style="animation-delay:-1.5s"/>
+</g>
+<text x="30" y="229" style="font:12px system-ui,sans-serif;fill:#a9c4df">Public contribution history recorded by GitHub</text>
+</svg>
+

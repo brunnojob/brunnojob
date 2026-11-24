@@ -1,0 +1,30 @@
+name: Refresh profile activity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 9 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-activity.yml'
+      - '.github/scripts/profile_activity.py'
+permissions:
+  contents: write
+concurrency:
+  group: profile-activity
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render public contribution totals
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/profile_activity.py
+      - name: Publish updated card
+        run: |
+          git add assets/profile/profile-activity.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh public GitHub activity card'
+          git pull --rebase origin main
+          git push

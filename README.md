@@ -218,6 +218,8 @@ I start with the signal, then the protocol, data model, interface and person usi
 
 ## GitHub activity and languages
 
+[![GitHub activity totals for commits, pull requests, code reviews and contributions](assets/profile/profile-activity.svg)](https://github.com/brunnojob#contributions)
+
 <p align="center">
 <a href="https://github.com/brunnojob#contributions"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/profile-streak.png" />
