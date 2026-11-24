@@ -1,21 +1,15 @@
 <a id="top"></a>
 
-# Brunno Dev
-
-**Open Sourcer · Software Engineer · Industrial Systems**
-
-> “Archimedes will be remembered when Aeschylus is forgotten, because languages die but mathematical ideas endure.” — G. H. Hardy
-
-[**327-day contribution streak**](https://github.com/brunnojob#contributions) · [Languages I use](#languages-i-use)
-
-I build open-source tools for the work developers do every day: learning, reviewing changes, diagnosing failed builds and maintaining repositories. I bring the same approach to industrial automation and offshore operations, connecting field signals and control logic to the interfaces operators use.
+<a href="https://www.brunnodev.store/">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/profile/profile-overview-mobile.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/profile-overview.png" />
+    <source media="(max-width: 600px)" srcset="assets/profile/profile-overview-mobile.gif" />
+    <img src="assets/profile/profile-overview.gif" width="100%" alt="Brunno Dev. Open Sourcer, Software Engineer and Industrial Systems. I build tools for learning, code review, CI diagnosis and repository maintenance, and connect field signals and control logic to operator interfaces. G. H. Hardy: Archimedes will be remembered when Aeschylus is forgotten, because languages die but mathematical ideas endure. Open the laboratory." />
+  </picture>
+</a>
 
 [Laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/lab-hero.png" />
-  <img src="assets/profile/lab-hero.gif" width="100%" alt="brunnodev — Software engineer. Electrical / offshore developer. Software, industrial systems and operational thinking." />
-</picture>
 
 <a id="tools-for-the-developer-community"></a>
 
@@ -91,25 +85,6 @@ I lead RF Offshore and RF WALLMARKET. My work spans offshore field operations, i
 
 <a id="skills"></a>
 
-## Languages I use
-
-<details>
-<summary><b>C and Java are my foundation · Explore code by language</b></summary>
-
-| Language / target | Source |
-|---|---|
-| C17 | [Durable archive client](https://github.com/brunnojob/vercel-home-telemetry-api/tree/main/clients/c) |
-| C++ | [Concurrent task queue](https://github.com/brunnojob/cpp-safe-task-queue) |
-| C# | [Supabase inventory API](https://github.com/brunnojob/csharp-pantry-api) |
-| Java | [Balanced ledger](https://github.com/brunnojob/bank-crypto-ledger) |
-| Kotlin | [Android inspections](https://github.com/brunnojob/android-offshore-field-console) |
-| Swift | [Native inspection store](https://github.com/brunnojob/android-offshore-field-console/tree/main/ios) |
-| Ruby | [Git collaboration auditor](https://github.com/brunnojob/pair-extraordinaire-badge) |
-| IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
-| SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
-
-</details>
-
 ## Engineering toolkit
 
 <details>
@@ -131,13 +106,13 @@ I lead RF Offshore and RF WALLMARKET. My work spans offshore field operations, i
 Sensors and relays feed PLC / SCADA logic, cloud telemetry and operator interfaces; operator decisions feed back into the process.
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/noir/signal-path-mobile.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/noir/signal-path.png" />
-  <source media="(max-width: 600px)" srcset="assets/noir/signal-path-mobile.gif" />
-  <img src="assets/noir/signal-path.gif" width="100%" alt="Animated conceptual flow from field sensors through PLC/SCADA and cloud telemetry to operator decisions, with feedback to the field." />
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/noir/signal-path-mobile-blue.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/noir/signal-path-blue.png" />
+  <source media="(max-width: 600px)" srcset="assets/noir/signal-path-mobile-blue.gif" />
+  <img src="assets/noir/signal-path-blue.gif" width="100%" alt="Animated conceptual flow from field sensors through PLC/SCADA and cloud telemetry to operator decisions, with feedback to the field." />
 </picture>
 
-Original motion study by Brunno Dev · [Still diagram](assets/noir/signal-path.png) · [Mobile still](assets/noir/signal-path-mobile.png)
+Original motion study by Brunno Dev · [Still diagram](assets/noir/signal-path-blue.png) · [Mobile still](assets/noir/signal-path-mobile-blue.png)
 
 | Focus | Work to inspect |
 |---|---|
@@ -239,7 +214,39 @@ I start with the signal, then the protocol, data model, interface and person usi
 
 ## Project catalog
 
-[All repositories](https://github.com/brunnojob?tab=repositories)
+[All repositories](https://github.com/brunnojob?tab=repositories) · [Laboratory](https://www.brunnodev.store/)
+
+## GitHub activity and languages
+
+<p align="center">
+<a href="https://github.com/brunnojob#contributions"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/profile-streak.png" />
+  <img src="assets/profile/profile-streak.gif" width="48%" alt="327-day contribution streak. View GitHub contributions." />
+</picture></a>
+<a href="#languages-i-use"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/profile-languages.png" />
+  <img src="assets/profile/profile-languages.gif" width="48%" alt="Languages I use. C and Java are my foundation. Explore code examples." />
+</picture></a>
+</p>
+
+## Languages I use
+
+<details>
+<summary><b>C and Java are my foundation · Explore code by language</b></summary>
+
+| Language / target | Source |
+|---|---|
+| C17 | [Durable archive client](https://github.com/brunnojob/vercel-home-telemetry-api/tree/main/clients/c) |
+| C++ | [Concurrent task queue](https://github.com/brunnojob/cpp-safe-task-queue) |
+| C# | [Supabase inventory API](https://github.com/brunnojob/csharp-pantry-api) |
+| Java | [Balanced ledger](https://github.com/brunnojob/bank-crypto-ledger) |
+| Kotlin | [Android inspections](https://github.com/brunnojob/android-offshore-field-console) |
+| Swift | [Native inspection store](https://github.com/brunnojob/android-offshore-field-console/tree/main/ios) |
+| Ruby | [Git collaboration auditor](https://github.com/brunnojob/pair-extraordinaire-badge) |
+| IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
+| SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
+
+</details>
 
 <a id="sponsors"></a>
 
