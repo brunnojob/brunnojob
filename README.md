@@ -4,9 +4,13 @@
 
 **Open Sourcer · Software Engineer · Industrial Systems**
 
+> “Archimedes will be remembered when Aeschylus is forgotten, because languages die but mathematical ideas endure.” — G. H. Hardy
+
+[**327-day contribution streak**](https://github.com/brunnojob#contributions) · [Languages I use](#languages-i-use)
+
 I build open-source tools for the work developers do every day: learning, reviewing changes, diagnosing failed builds and maintaining repositories. I bring the same approach to industrial automation and offshore operations, connecting field signals and control logic to the interfaces operators use.
 
-[Portfolio](https://brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
+[Laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/lab-hero.png" />
@@ -17,79 +21,54 @@ I build open-source tools for the work developers do every day: learning, review
 
 ## Open-source projects
 
+<details>
+<summary><b>Explore all six projects and previews</b></summary>
+
 ### DevStart Lab
 
 Learn programming through a roadmap, hands-on exercises and a path to your first GitHub pull request.
 
-**[Start learning ↗](https://brunnojob.github.io/devstart-lab/?lang=en)** · [Source](https://github.com/brunnojob/devstart-lab) · [Português](https://brunnojob.github.io/devstart-lab/?lang=pt)
-
-<details>
-<summary>Preview DevStart Lab</summary>
+**[Start learning](https://brunnojob.github.io/devstart-lab/?lang=en)** · [Source](https://github.com/brunnojob/devstart-lab) · [Português](https://brunnojob.github.io/devstart-lab/?lang=pt)
 
 [![Programming roadmap and interactive learning example](https://raw.githubusercontent.com/brunnojob/devstart-lab/main/public/media/devstart-lab-preview.png)](https://brunnojob.github.io/devstart-lab/?lang=en)
-
-</details>
 
 ### PatchScope
 
 Turn a large diff into a review checklist with file and line references. Available in the browser, CLI and GitHub Actions.
 
-**[Review a diff ↗](https://brunnojob.github.io/patchscope/)** · [Source](https://github.com/brunnojob/patchscope) · [Watch the 18-second walkthrough](https://brunnojob.github.io/patchscope/docs/launch/demo.html)
-
-<details>
-<summary>Preview PatchScope</summary>
+**[Review a diff](https://brunnojob.github.io/patchscope/)** · [Source](https://github.com/brunnojob/patchscope) · [Watch the 18-second walkthrough](https://brunnojob.github.io/patchscope/docs/launch/demo.html)
 
 [![Review map showing prompts alongside the file diff](https://raw.githubusercontent.com/brunnojob/patchscope/main/docs/preview.jpg)](https://brunnojob.github.io/patchscope/)
-
-</details>
 
 ### CIFuse
 
 Group CI failures and trace them to the relevant log lines, source context and investigation steps.
 
-**[Inspect a CI log ↗](https://brunnojob.github.io/cifuse/)** · [Source](https://github.com/brunnojob/cifuse)
-
-<details>
-<summary>Preview CIFuse</summary>
+**[Inspect a CI log](https://brunnojob.github.io/cifuse/)** · [Source](https://github.com/brunnojob/cifuse)
 
 [![CIFuse workbench grouping failures from a sample CI log](https://raw.githubusercontent.com/brunnojob/cifuse/main/site/demo.gif)](https://brunnojob.github.io/cifuse/)
-
-</details>
 
 ### RepoRelief
 
 Prioritize repository maintenance across documentation, broken local links and missing test-file matches.
 
-**[Run a repository audit ↗](https://brunnojob.github.io/reporelief/)** · [Source](https://github.com/brunnojob/reporelief)
-
-<details>
-<summary>Preview RepoRelief</summary>
+**[Run a repository audit](https://brunnojob.github.io/reporelief/)** · [Source](https://github.com/brunnojob/reporelief)
 
 [![RepoRelief generating a maintenance plan for a sample repository](https://raw.githubusercontent.com/brunnojob/reporelief/main/docs/assets/demo.gif)](https://brunnojob.github.io/reporelief/)
-
-</details>
 
 ### RevScope
 
 Compare reverse engineering tools in a searchable catalog with links to official documentation.
 
-**[Explore the catalog ↗](https://brunnojob.github.io/revscope/)** · [Source](https://github.com/brunnojob/revscope)
-
-<details>
-<summary>Preview RevScope</summary>
+**[Explore the catalog](https://brunnojob.github.io/revscope/)** · [Source](https://github.com/brunnojob/revscope)
 
 [![RevScope searchable tool catalog](https://raw.githubusercontent.com/brunnojob/revscope/main/assets/catalog-preview.gif)](https://brunnojob.github.io/revscope/)
-
-</details>
 
 ### SCADA Code Studio
 
 Explore industrial control logic in a browser and inspect recorded execution examples.
 
-**[Open the studio ↗](https://brunnojob.github.io/scada-code-studio/)** · [Source](https://github.com/brunnojob/scada-code-studio)
-
-<details>
-<summary>Preview SCADA Code Studio</summary>
+**[Open the studio](https://brunnojob.github.io/scada-code-studio/)** · [Source](https://github.com/brunnojob/scada-code-studio)
 
 [![Recorded execution in the SCADA Code Studio browser interface](https://raw.githubusercontent.com/brunnojob/scada-code-studio/main/docs/proof/browser.png)](https://brunnojob.github.io/scada-code-studio/)
 
@@ -112,18 +91,10 @@ I lead RF Offshore and RF WALLMARKET. My work spans offshore field operations, i
 
 <a id="skills"></a>
 
-## Engineering toolkit
-
-| Area | Skills |
-|---|---|
-| Languages | C / C17, Java, TypeScript, Python, C++, C#, Ruby, Swift, Kotlin, IEC 61131-3 Structured Text |
-| Software & data | Full-stack, system design, API integration, banking APIs, databases, PostgreSQL, SQLite, security systems, cybersecurity, testing |
-| Field & cloud | PLC, SCADA, HMI, signal control, Modbus, PID, Arduino, ESP32, sensor networks, IoT, telemetry, MQTT, WebSockets, AWS, Oracle Cloud IoT, Supabase |
-| Product & operations | Mobile UX, Room, Android Keystore, local transactions, persistent synchronization queues, device states, field operations, Stone / Sunmi POS, QR payments, checkout, catalog, inventory, cash control, role-based operations |
-| Collaboration | Project management, technical writing, documented architecture and technical decisions, Cambridge C2 English, numerical modeling (RK4) |
+## Languages I use
 
 <details>
-<summary><b>Inspect implementations by language</b></summary>
+<summary><b>C and Java are my foundation · Explore code by language</b></summary>
 
 | Language / target | Source |
 |---|---|
@@ -137,6 +108,20 @@ I lead RF Offshore and RF WALLMARKET. My work spans offshore field operations, i
 | IEC 61131-3 Structured Text / PLC | [Circuit exporter](https://github.com/brunnojob/eletrical-comands-and-teory) |
 | SCADA | [Control studio](https://github.com/brunnojob/scada-code-studio) |
 
+</details>
+
+## Engineering toolkit
+
+<details>
+<summary><b>Explore the engineering toolkit</b></summary>
+
+| Area | Skills |
+|---|---|
+| Languages | C / C17, Java, TypeScript, Python, C++, C#, Ruby, Swift, Kotlin, IEC 61131-3 Structured Text |
+| Software & data | Full-stack, system design, API integration, banking APIs, databases, PostgreSQL, SQLite, security systems, cybersecurity, testing |
+| Field & cloud | PLC, SCADA, HMI, signal control, Modbus, PID, Arduino, ESP32, sensor networks, IoT, telemetry, MQTT, WebSockets, AWS, Oracle Cloud IoT, Supabase |
+| Product & operations | Mobile UX, Room, Android Keystore, local transactions, persistent synchronization queues, device states, field operations, Stone / Sunmi POS, QR payments, checkout, catalog, inventory, cash control, role-based operations |
+| Collaboration | Project management, technical writing, documented architecture and technical decisions, Cambridge C2 English, numerical modeling (RK4) |
 
 </details>
 
@@ -172,31 +157,31 @@ I start with the signal, then the protocol, data model, interface and person usi
 
 ## Execution evidence
 
-[![Executable proof](https://github.com/brunnojob/brunnojob/actions/workflows/proof.yml/badge.svg)](https://github.com/brunnojob/brunnojob/actions/workflows/proof.yml)
-
-[Recorded run](https://github.com/brunnojob/brunnojob/actions/runs/38018340176) · [Execution report](docs/proof/evidence.json) · [Execution index](docs/proof/INDEX.md) · [Project demonstrations](https://brunnojob.github.io/devstart-lab/proofs/?lang=en)
-
-<sub>Execution records cover the listed scenarios and source commits. Screenshots below document project interfaces and bench work.</sub>
-
 <details>
-<summary><b>RF Solutions × Stone — POS System</b></summary>
-<br>
+<summary><b>Explore field systems and workbench previews</b></summary>
+
+### RF Solutions × Stone — POS System
+
 <p align="center">
   <a href="assets/projects/stone-pos-system.png"><img src="assets/projects/stone-pos-system.png" width="360" alt="Stone terminal showing RF Solutions in the application store" /></a>
 </p>
-</details>
 
-<details>
-<summary><b>OFS — Offshore Fleet POB Platform</b></summary>
-<br>
+### OFS — Offshore Fleet POB Platform
+
 <p align="center">
   <a href="assets/projects/ofs-fleet-dashboard.jpg"><img src="assets/projects/ofs-fleet-dashboard.jpg" width="640" alt="OFS dashboard with personnel on board, fire drill history and lifeboat status" /></a>
 </p>
-</details>
+
+### Arduino / ESP32 Telemetry
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/projects/iot-dashboard.jpg" />
+  <img src="assets/projects/telemetry-preview.gif" width="480" alt="Five telemetry screenshots from the serial monitor through the dashboard and audit log" />
+</picture>
 
 <details>
-<summary><b>Arduino / ESP32 Telemetry</b></summary>
-<br>
+<summary>View original images</summary>
+
 
 **Device output — ESP32 serial monitor**
 
@@ -227,23 +212,26 @@ I start with the signal, then the protocol, data model, interface and person usi
 <p align="center">
   <a href="assets/projects/iot-audit-log.jpg"><img src="assets/projects/iot-audit-log.jpg" width="640" alt="Inventory movements and recent sensor records in the telemetry dashboard" /></a>
 </p>
+
 </details>
 
+### Workbench & personal projects
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/projects/just-for-fun-2.jpeg" />
+  <img src="assets/projects/workbench-preview.gif" width="480" alt="Three workbench photos showing the workstation, hardware prototype and retail app" />
+</picture>
+
 <details>
-<summary><b>Workbench & personal projects</b></summary>
-<br>
+<summary>View original images</summary>
+
 <p align="center">
   <a href="assets/projects/just-for-fun-1.jpeg"><img src="assets/projects/just-for-fun-1.jpeg" width="31%" alt="Personal desk photo with a multi-screen workstation" /></a>
   <a href="assets/projects/just-for-fun-2.jpeg"><img src="assets/projects/just-for-fun-2.jpeg" width="31%" alt="Sensor, breadboard, relay and pump experiment on the workbench" /></a>
   <a href="assets/projects/just-for-fun-3.jpeg"><img src="assets/projects/just-for-fun-3.jpeg" width="31%" alt="RF WALLMARKET application running locally during a development session" /></a>
 </p>
+
 </details>
-
-
-<details>
-<summary><b>Reproduce the recorded execution</b></summary>
-
-Run `python .proof/record.py` with the prerequisites in the [execution index](docs/proof/INDEX.md). Scenarios run repository code and check exit codes and expected output. CI publishes the `execution-proof` artifact with transcripts, input fingerprints and the source commit. The report identifies the tested version; the badge follows the latest workflow run.
 
 </details>
 
@@ -251,9 +239,7 @@ Run `python .proof/record.py` with the prerequisites in the [execution index](do
 
 ## Project catalog
 
-Electrical control, embedded telemetry, mobile operations and retail systems live in the [project catalog](PROJECTS.md). Start with [SCADA Code Studio](https://github.com/brunnojob/scada-code-studio), [PID pressure control](https://github.com/brunnojob/pid-pressure-control) or [industrial IoT event handling](https://github.com/brunnojob/industrial-iot-sentinel).
-
-[All repositories ↗](https://github.com/brunnojob?tab=repositories) · [Operations archive ↗](https://vercel-home-telemetry-api.vercel.app/laboratory.html)
+[All repositories](https://github.com/brunnojob?tab=repositories)
 
 <a id="sponsors"></a>
 
@@ -275,11 +261,4 @@ Support funds maintenance, reproducible examples and documentation. Thank you to
 
 <sub>Public GitHub supporters are synchronized automatically. Private sponsorships stay private.</sub>
 
-<details>
-<summary>A thought behind the work</summary>
-
-“Archimedes will be remembered when Aeschylus is forgotten, because languages die but mathematical ideas endure.” — G. H. Hardy
-
-</details>
-
-<sub>[Back to top](#top) · [brunnodev.store](https://brunnodev.store/) · Original source and documentation: [MIT](LICENSE). Third-party dependencies and media retain their terms.</sub>
+<sub>[Back to top](#top) · [brunnodev.store](https://www.brunnodev.store/) · Original source and documentation: [MIT](LICENSE). Third-party dependencies and media retain their terms.</sub>
