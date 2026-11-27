@@ -26,6 +26,8 @@ jobs:
         run: |
           git add assets/profile/profile-live.svg
           if git diff --cached --quiet; then exit 0; fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Sync GitHub profile metrics'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Sync GitHub profile metrics'
           git pull --rebase origin main
           git push
