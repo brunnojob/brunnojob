@@ -122,12 +122,12 @@ def render(activity, streak, language_totals, colors, updated):
                         f'<rect x="154" y="{y-10}" width="{width}" height="7" rx="3" fill="{colors[name]}"/>')
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 565" width="560" height="565" role="img" aria-labelledby="title">
 <title id="title">GitHub activity and repository languages, synchronized from GitHub</title>
-<style>\n@keyframes drift { to { transform:translateX(260px) } }\n.glow { animation:drift 5s ease-in-out infinite alternate }\n@media(prefers-reduced-motion:reduce) {.glow {animation:none}}
+<defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>\n<style>\n@keyframes ambient {to {transform:translateX(-560px)}}\n.ambient {animation:ambient 9s ease-in-out infinite alternate}\n@keyframes drift { to { transform:translateX(260px) } }\n.glow { animation:drift 5s ease-in-out infinite alternate }\n@media(prefers-reduced-motion:reduce) {.glow,.ambient {animation:none}}
 .label {{font:14px system-ui,sans-serif;fill:#a9c4df}}
 .number {{font:bold 25px system-ui,sans-serif;fill:#f3f8ff}}
 .small {{font:11px system-ui,sans-serif;fill:#a9c4df}}
 </style>
-<rect x="1" y="1" width="558" height="563" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/>
+<rect x="1" y="1" width="558" height="563" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/><rect class="ambient" x="0" y="0" width="1120" height="565" opacity=".23" fill="url(#ambient)" pointer-events="none"/>
 <text x="30" y="37" style="font:16px monospace;fill:#79c4ff">GITHUB ACTIVITY · LIVE DATA</text>
 <path d="M30 53H530" stroke="#2a4766"/><circle class="glow" cx="55" cy="52" r="3" fill="#79c4ff"/>
 {''.join(cells)}
