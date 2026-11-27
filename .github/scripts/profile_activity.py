@@ -96,7 +96,7 @@ def languages():
             for edge in repo["languages"]["edges"]:
                 name = edge["node"]["name"]
                 totals[name] = totals.get(name, 0) + edge["size"]
-                colors.get(name, "#79c4ff") = edge["node"]["color"] or "#79c4ff"
+                colors[name] = edge["node"]["color"] or "#79c4ff"
         if not repos["pageInfo"]["hasNextPage"]:
             break
         cursor = repos["pageInfo"]["endCursor"]
@@ -119,10 +119,10 @@ def render(activity, streak, language_totals, colors, updated):
             width = max(2, round(220 * size / maximum))
             bars.append(f'<text class="small" x="30" y="{y}">{html.escape(name)}</text>'
                         f'<rect x="260" y="{y-10}" width="220" height="7" rx="3" fill="#20364c"/>'
-                        f'<rect x="154" y="{y-10}" width="{width}" height="7" rx="3" fill="{colors[name]}"/>')
+                        f'<rect x="260" y="{y-10}" width="{width}" height="7" rx="3" fill="#79c4ff"/>')
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 565" width="560" height="565" role="img" aria-labelledby="title">
 <title id="title">GitHub activity and repository languages, synchronized from GitHub</title>
-<defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>\n<style>\n@keyframes ambient {to {transform:translateX(-560px)}}\n.ambient {animation:ambient 9s ease-in-out infinite alternate}\n@keyframes drift { to { transform:translateX(260px) } }\n.glow { animation:drift 5s ease-in-out infinite alternate }\n@media(prefers-reduced-motion:reduce) {.glow,.ambient {animation:none}}
+<defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>\n<style>\n@keyframes ambient {{to {{transform:translateX(-560px)}}}}\n.ambient {{animation:ambient 9s ease-in-out infinite alternate}}\n@keyframes drift {{ to {{ transform:translateX(260px) }} }}\n.glow {{ animation:drift 5s ease-in-out infinite alternate }}\n@media(prefers-reduced-motion:reduce) {{.glow,.ambient {{animation:none}}}}
 .label {{font:14px system-ui,sans-serif;fill:#a9c4df}}
 .number {{font:bold 25px system-ui,sans-serif;fill:#f3f8ff}}
 .small {{font:11px system-ui,sans-serif;fill:#a9c4df}}
