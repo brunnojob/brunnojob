@@ -9,6 +9,18 @@
   </picture>
 </a>
 
+## Software Engineer · Industrial Systems · Open Source
+
+I build software for developer workflows and industrial operations, connecting field data, control systems, APIs and practical user interfaces. My work spans C and Java, CI diagnosis, code review, repository tooling, telemetry and autonomous retail.
+
+I lead **RF Offshore** and **RF WALLMARKET**, bringing engineering and operational experience together across offshore, industrial and retail environments. My portfolio includes working demos, source code, architecture notes and execution evidence.
+
+**Core strengths:** C / C17 · Java · TypeScript · Python · PLC / SCADA · IoT telemetry · API and data modeling · security-minded engineering · technical leadership
+
+[Portfolio & laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
+
+<a id="original-links"></a>
+
 [Laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
 
 <a id="tools-for-the-developer-community"></a>
