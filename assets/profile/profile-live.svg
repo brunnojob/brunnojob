@@ -1,17 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 470" width="560" height="470" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 565" width="560" height="565" role="img" aria-labelledby="title">
 <title id="title">GitHub activity and repository languages, synchronized from GitHub</title>
+<defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>
 <style>
+@keyframes ambient {to {transform:translateX(-560px)}}
+.ambient {animation:ambient 9s ease-in-out infinite alternate}
+@keyframes drift { to { transform:translateX(260px) } }
+.glow { animation:drift 5s ease-in-out infinite alternate }
+@media(prefers-reduced-motion:reduce) {.glow,.ambient {animation:none}}
 .label {font:14px system-ui,sans-serif;fill:#a9c4df}
 .number {font:bold 25px system-ui,sans-serif;fill:#f3f8ff}
-.small {font:12px system-ui,sans-serif;fill:#a9c4df}
+.small {font:11px system-ui,sans-serif;fill:#a9c4df}
 </style>
-<rect x="1" y="1" width="558" height="468" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/>
+<rect x="1" y="1" width="558" height="563" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/><rect class="ambient" x="0" y="0" width="1120" height="565" opacity=".23" fill="url(#ambient)" pointer-events="none"/>
 <text x="30" y="37" style="font:16px monospace;fill:#79c4ff">GITHUB ACTIVITY · LIVE DATA</text>
-<path d="M30 53H530" stroke="#2a4766"/>
-<g transform="translate(30 82)"><text class="label">Commits</text><text class="number" y="29">163,088</text></g><g transform="translate(300 82)"><text class="label">Pull requests</text><text class="number" y="29">1,271</text></g><g transform="translate(30 151)"><text class="label">Code reviews</text><text class="number" y="29">467</text></g><g transform="translate(300 151)"><text class="label">Contributions</text><text class="number" y="29">200,400</text></g>
+<path d="M30 53H530" stroke="#2a4766"/><circle class="glow" cx="55" cy="52" r="3" fill="#79c4ff"/>
+<g transform="translate(30 82)"><text class="label">Commits</text><text class="number" y="29">163,094</text></g><g transform="translate(300 82)"><text class="label">Pull requests</text><text class="number" y="29">1,271</text></g><g transform="translate(30 151)"><text class="label">Code reviews</text><text class="number" y="29">467</text></g><g transform="translate(300 151)"><text class="label">Contributions</text><text class="number" y="29">200,409</text></g>
 <text class="label" x="30" y="190">Current contribution streak</text>
 <text class="number" x="30" y="224">331 days</text>
-<text class="label" x="30" y="267">Top languages across public, non-fork repositories</text>
-<text class="small" x="30" y="302">Python</text><rect x="154" y="292" width="220" height="7" rx="3" fill="#20364c"/><rect x="154" y="292" width="220" height="7" rx="3" fill="#3572A5"/><text class="small" x="30" y="325">TypeScript</text><rect x="154" y="315" width="220" height="7" rx="3" fill="#20364c"/><rect x="154" y="315" width="145" height="7" rx="3" fill="#3178c6"/><text class="small" x="30" y="348">JavaScript</text><rect x="154" y="338" width="220" height="7" rx="3" fill="#20364c"/><rect x="154" y="338" width="90" height="7" rx="3" fill="#f1e05a"/><text class="small" x="30" y="371">C#</text><rect x="154" y="361" width="220" height="7" rx="3" fill="#20364c"/><rect x="154" y="361" width="39" height="7" rx="3" fill="#7355dd"/><text class="small" x="30" y="394">Java</text><rect x="154" y="384" width="220" height="7" rx="3" fill="#20364c"/><rect x="154" y="384" width="27" height="7" rx="3" fill="#b07219"/><text class="small" x="30" y="417">HTML</text><rect x="154" y="407" width="220" height="7" rx="3" fill="#20364c"/><rect x="154" y="407" width="24" height="7" rx="3" fill="#e34c26"/>
-<text class="small" x="30" y="455">GitHub GraphQL · Updated 2026-11-27 03:39 UTC · Languages: Python · TypeScript · JavaScript · C# · Java · HTML</text>
+<text class="label" x="30" y="267">Engineering skills · self-assessed</text>
+<text class="small" x="30" y="302">C</text><rect x="260" y="292" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="292" width="220" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="328">Java</text><rect x="260" y="318" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="318" width="220" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="354">C#</text><rect x="260" y="344" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="344" width="220" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="380">C++</text><rect x="260" y="370" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="370" width="220" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="406">Kotlin</text><rect x="260" y="396" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="396" width="220" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="432">SCADA / IoT / Automation</text><rect x="260" y="422" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="422" width="220" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="458">TypeScript</text><rect x="260" y="448" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="448" width="194" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="484">JavaScript</text><rect x="260" y="474" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="474" width="121" height="7" rx="3" fill="#79c4ff"/><text class="small" x="30" y="510">Swift</text><rect x="260" y="500" width="220" height="7" rx="3" fill="#20364c"/><rect x="260" y="500" width="110" height="7" rx="3" fill="#79c4ff"/>
+<text class="small" x="30" y="553">Activity: GitHub · Updated 2026-11-27 05:20 UTC</text>
 </svg>
