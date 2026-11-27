@@ -96,7 +96,7 @@ def languages():
             for edge in repo["languages"]["edges"]:
                 name = edge["node"]["name"]
                 totals[name] = totals.get(name, 0) + edge["size"]
-                colors[name] = edge["node"]["color"] or "#79c4ff"
+                colors.get(name, "#79c4ff") = edge["node"]["color"] or "#79c4ff"
         if not repos["pageInfo"]["hasNextPage"]:
             break
         cursor = repos["pageInfo"]["endCursor"]
@@ -109,33 +109,33 @@ def render(activity, streak, language_totals, colors, updated):
         x, y = 30 + index % 2 * 270, 82 + index // 2 * 69
         cells.append(f'<g transform="translate({x} {y})"><text class="label">{label}</text>'
                      f'<text class="number" y="29">{number:,}</text></g>')
-    entries = language_totals[:6]
+    entries = [("C", 100), ("Java", 100), ("C#", 100), ("C++", 100), ("Kotlin", 100), ("SCADA / IoT / Automation", 100), ("TypeScript", 88), ("JavaScript", 55), ("Swift", 50)]
     language_text = " · ".join(html.escape(name) for name, _ in entries) or "No public repository language data"
     bars = []
     if entries:
-        maximum = max(size for _, size in entries)
+        maximum = 100
         for index, (name, size) in enumerate(entries):
-            y = 302 + index * 23
+            y = 302 + index * 26
             width = max(2, round(220 * size / maximum))
             bars.append(f'<text class="small" x="30" y="{y}">{html.escape(name)}</text>'
-                        f'<rect x="154" y="{y-10}" width="220" height="7" rx="3" fill="#20364c"/>'
+                        f'<rect x="260" y="{y-10}" width="220" height="7" rx="3" fill="#20364c"/>'
                         f'<rect x="154" y="{y-10}" width="{width}" height="7" rx="3" fill="{colors[name]}"/>')
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 470" width="560" height="470" role="img" aria-labelledby="title">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 565" width="560" height="565" role="img" aria-labelledby="title">
 <title id="title">GitHub activity and repository languages, synchronized from GitHub</title>
-<style>
+<style>\n@keyframes drift { to { transform:translateX(260px) } }\n.glow { animation:drift 5s ease-in-out infinite alternate }\n@media(prefers-reduced-motion:reduce) {.glow {animation:none}}
 .label {{font:14px system-ui,sans-serif;fill:#a9c4df}}
 .number {{font:bold 25px system-ui,sans-serif;fill:#f3f8ff}}
-.small {{font:12px system-ui,sans-serif;fill:#a9c4df}}
+.small {{font:11px system-ui,sans-serif;fill:#a9c4df}}
 </style>
-<rect x="1" y="1" width="558" height="468" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/>
+<rect x="1" y="1" width="558" height="563" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/>
 <text x="30" y="37" style="font:16px monospace;fill:#79c4ff">GITHUB ACTIVITY · LIVE DATA</text>
-<path d="M30 53H530" stroke="#2a4766"/>
+<path d="M30 53H530" stroke="#2a4766"/><circle class="glow" cx="55" cy="52" r="3" fill="#79c4ff"/>
 {''.join(cells)}
 <text class="label" x="30" y="190">Current contribution streak</text>
 <text class="number" x="30" y="224">{streak} days</text>
-<text class="label" x="30" y="267">Top languages across public, non-fork repositories</text>
+<text class="label" x="30" y="267">Engineering skills · self-assessed</text>
 {''.join(bars)}
-<text class="small" x="30" y="455">GitHub GraphQL · Updated {updated} UTC · Languages: {language_text}</text>
+<text class="small" x="30" y="553">Activity: GitHub · Updated {updated} UTC</text>
 </svg>
 """
 
