@@ -227,18 +227,9 @@ I start with the signal, then the protocol, data model, interface and person usi
 
 ## GitHub activity and languages
 
-[![GitHub activity totals for commits, pull requests, code reviews and contributions](assets/profile/profile-activity.svg)](https://github.com/brunnojob#contributions)
+This card is generated from GitHub GraphQL data and refreshes hourly. Activity totals follow GitHub's public contribution history. Streaks use the contribution calendar; language totals come from public, non-fork repositories.
 
-<p align="center">
-<a href="https://github.com/brunnojob#contributions"><picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/profile-streak.png" />
-  <img src="assets/profile/profile-streak.gif" width="48%" alt="327-day contribution streak. View GitHub contributions." />
-</picture></a>
-<a href="#languages-i-use"><picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/profile-languages.png" />
-  <img src="assets/profile/profile-languages.gif" width="48%" alt="Languages I use. C and Java are my foundation. Explore code examples." />
-</picture></a>
-</p>
+[![GitHub activity, current contribution streak and repository languages](assets/profile/profile-live.svg)](https://github.com/brunnojob#contributions)
 
 ## Languages I use
 
