@@ -117,12 +117,12 @@ def render(activity, streak, language_totals, colors, updated):
         maximum = 100
         palette = ("#65d6ff", "#f0a954", "#9b80ff", "#df7bda", "#7af0b3", "#ffc875", "#4089ff", "#f1da64", "#ee8396")
         for index, (name, size) in enumerate(entries):
-            y = 302 + index * 26
+            y = 336 + index * 26
             width = max(2, round(220 * size / maximum))
             bars.append(f'<text class="small" x="30" y="{y}">{html.escape(name)}</text>'
                         f'<rect x="260" y="{y-10}" width="220" height="7" rx="3" fill="#20364c"/>'
                         f'<rect class="skill" x="260" y="{y-10}" width="{width}" height="7" rx="3" fill="{palette[index]}" style="animation-delay:{index * 0.12}s"/>')
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 565" width="560" height="565" role="img" aria-labelledby="title">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" width="560" height="620" role="img" aria-labelledby="title">
 <title id="title">GitHub activity and repository languages, synchronized from GitHub</title>
 <defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>\n<style>\n@keyframes ambient {{to {{transform:translateX(-560px)}}}}\n.ambient {{animation:ambient 9s ease-in-out infinite alternate}}\n@keyframes drift {{ to {{ transform:translateX(260px) }} }}\n.glow {{ animation:drift 5s ease-in-out infinite alternate }}
 @keyframes rise {{from {{transform:scaleX(.05);opacity:.3}} to {{transform:scaleX(1);opacity:1}}}}
@@ -131,22 +131,22 @@ def render(activity, streak, language_totals, colors, updated):
 .number {{font:bold 25px system-ui,sans-serif;fill:#f3f8ff}}
 .small {{font:11px system-ui,sans-serif;fill:#a9c4df}}
 </style>
-<rect x="1" y="1" width="558" height="563" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/><rect class="ambient" x="0" y="0" width="1120" height="565" opacity=".23" fill="url(#ambient)" pointer-events="none"/>
+<rect x="1" y="1" width="558" height="618" rx="17" fill="#101c2b" stroke="#2a4766" stroke-width="2"/><rect class="ambient" x="0" y="0" width="1120" height="620" opacity=".23" fill="url(#ambient)" pointer-events="none"/>
 <text x="30" y="37" style="font:16px monospace;fill:#79c4ff">GITHUB ACTIVITY · LIVE DATA</text>
 <path d="M30 53H530" stroke="#2a4766"/><circle class="glow" cx="55" cy="52" r="3" fill="#79c4ff"/>
 {''.join(cells)}
-<text class="label" x="30" y="190">Current contribution streak</text>
-<text class="number" x="30" y="224">{streak} days</text>
-<text class="label" x="30" y="267">Engineering skills · self-assessed</text>
+<text class="label" x="30" y="220">Current contribution streak</text>
+<text class="number" x="30" y="254">{streak} days</text>
+<text class="label" x="30" y="301">Engineering skills · self-assessed</text>
 {''.join(bars)}
-<text class="small" x="30" y="553">GitHub activity · Updated {updated} (Brasília)</text>
+<text class="small" x="30" y="598">GitHub activity · Last synced {updated} (Brasília)</text>
 </svg>
 """
 
 def main():
     activity, streak = contributions()
     language_totals, colors = languages()
-    updated = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y %H:%M")
+    updated = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y %H:%M:%S")
     Path("assets/profile/profile-live.svg").write_text(
         render(activity, streak, language_totals, colors, updated), encoding="utf-8"
     )
