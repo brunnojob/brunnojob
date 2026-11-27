@@ -19,9 +19,6 @@ I lead **RF Offshore** and **RF WALLMARKET**, bringing engineering and operation
 
 [Portfolio & laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
 
-<a id="original-links"></a>
-
-[Laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
 
 <a id="tools-for-the-developer-community"></a>
 
