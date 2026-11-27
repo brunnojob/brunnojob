@@ -227,7 +227,7 @@ I start with the signal, then the protocol, data model, interface and person usi
 
 ## GitHub activity and languages
 
-This card is generated from GitHub GraphQL data and refreshes hourly. Activity totals follow GitHub's public contribution history. Streaks use the contribution calendar; language totals come from public, non-fork repositories.
+GitHub activity and the current contribution streak are generated from public GitHub GraphQL data and refreshed hourly. The engineering skills below reflect my stated areas of practice and relative proficiency.
 
 [![GitHub activity, current contribution streak and repository languages](assets/profile/profile-live.svg)](https://github.com/brunnojob#contributions)
 
