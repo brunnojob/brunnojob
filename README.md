@@ -20,6 +20,12 @@ I lead **RF Offshore** and **RF WALLMARKET**, bringing engineering and operation
 [Portfolio & laboratory](https://www.brunnodev.store/) · [LinkedIn](https://www.linkedin.com/in/brunnojob/) · [Contact](mailto:contato@brunnodev.store) · [Live demos](#open-source-projects) · [Execution evidence](#evidence)
 
 
+## GitHub activity and engineering skills
+
+GitHub activity and the current contribution streak are generated from public GitHub GraphQL data and refreshed hourly. The engineering skills below reflect my stated areas of practice and relative proficiency.
+
+[![GitHub activity, current contribution streak and repository languages](assets/profile/profile-live.svg)](https://github.com/brunnojob#contributions)
+
 <a id="tools-for-the-developer-community"></a>
 
 ## Open-source projects
@@ -224,12 +230,6 @@ I start with the signal, then the protocol, data model, interface and person usi
 ## Project catalog
 
 [All repositories](https://github.com/brunnojob?tab=repositories) · [Laboratory](https://www.brunnodev.store/)
-
-## GitHub activity and languages
-
-GitHub activity and the current contribution streak are generated from public GitHub GraphQL data and refreshed hourly. The engineering skills below reflect my stated areas of practice and relative proficiency.
-
-[![GitHub activity, current contribution streak and repository languages](assets/profile/profile-live.svg)](https://github.com/brunnojob#contributions)
 
 ## Languages I use
 
