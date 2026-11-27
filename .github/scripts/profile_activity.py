@@ -2,6 +2,7 @@ import html
 import json
 import os
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -114,15 +115,18 @@ def render(activity, streak, language_totals, colors, updated):
     bars = []
     if entries:
         maximum = 100
+        palette = ("#65d6ff", "#f0a954", "#9b80ff", "#df7bda", "#7af0b3", "#ffc875", "#4089ff", "#f1da64", "#ee8396")
         for index, (name, size) in enumerate(entries):
             y = 302 + index * 26
             width = max(2, round(220 * size / maximum))
             bars.append(f'<text class="small" x="30" y="{y}">{html.escape(name)}</text>'
                         f'<rect x="260" y="{y-10}" width="220" height="7" rx="3" fill="#20364c"/>'
-                        f'<rect x="260" y="{y-10}" width="{width}" height="7" rx="3" fill="#79c4ff"/>')
+                        f'<rect class="skill" x="260" y="{y-10}" width="{width}" height="7" rx="3" fill="{palette[index]}" style="animation-delay:{index * 0.12}s"/>')
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 565" width="560" height="565" role="img" aria-labelledby="title">
 <title id="title">GitHub activity and repository languages, synchronized from GitHub</title>
-<defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>\n<style>\n@keyframes ambient {{to {{transform:translateX(-560px)}}}}\n.ambient {{animation:ambient 9s ease-in-out infinite alternate}}\n@keyframes drift {{ to {{ transform:translateX(260px) }} }}\n.glow {{ animation:drift 5s ease-in-out infinite alternate }}\n@media(prefers-reduced-motion:reduce) {{.glow,.ambient {{animation:none}}}}
+<defs><linearGradient id="ambient"><stop offset="0%" stop-color="#101c2b"/><stop offset="50%" stop-color="#203c55"/><stop offset="100%" stop-color="#101c2b"/></linearGradient></defs>\n<style>\n@keyframes ambient {{to {{transform:translateX(-560px)}}}}\n.ambient {{animation:ambient 9s ease-in-out infinite alternate}}\n@keyframes drift {{ to {{ transform:translateX(260px) }} }}\n.glow {{ animation:drift 5s ease-in-out infinite alternate }}
+@keyframes rise {{from {{transform:scaleX(.05);opacity:.3}} to {{transform:scaleX(1);opacity:1}}}}
+.skill {{transform-box:fill-box;transform-origin:left;animation:rise .9s ease-out both}}\n@media(prefers-reduced-motion:reduce) {{.glow,.ambient {{animation:none}}}}
 .label {{font:14px system-ui,sans-serif;fill:#a9c4df}}
 .number {{font:bold 25px system-ui,sans-serif;fill:#f3f8ff}}
 .small {{font:11px system-ui,sans-serif;fill:#a9c4df}}
@@ -135,14 +139,14 @@ def render(activity, streak, language_totals, colors, updated):
 <text class="number" x="30" y="224">{streak} days</text>
 <text class="label" x="30" y="267">Engineering skills · self-assessed</text>
 {''.join(bars)}
-<text class="small" x="30" y="553">Activity: GitHub · Updated {updated} UTC</text>
+<text class="small" x="30" y="553">GitHub activity · Updated {updated} (Brasília)</text>
 </svg>
 """
 
 def main():
     activity, streak = contributions()
     language_totals, colors = languages()
-    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+    updated = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y %H:%M")
     Path("assets/profile/profile-live.svg").write_text(
         render(activity, streak, language_totals, colors, updated), encoding="utf-8"
     )
